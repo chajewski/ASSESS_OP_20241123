@@ -1,0 +1,42 @@
+Subject,Grade,RawScore,Count,ThetaScore,ThetaScoreSE,UnroundedScaleScore,UnroundedScaleScoreSE,ScaleScore,ScaleScoreSE,PerformanceLevel,PerformanceLabel,Percentile
+Social Studies,8,2,1,-5.2069,1.843,6.261,33.0669,6,33,1,Below Proficient,0
+Social Studies,8,3,4,-3.9588,1.0309,28.6542,18.4975,29,18,1,Below Proficient,0
+Social Studies,8,4,13,-3.203,0.75,42.2147,13.4562,42,13,1,Below Proficient,1
+Social Studies,8,5,22,-2.7353,0.6289,50.6072,11.2834,51,11,1,Below Proficient,1
+Social Studies,8,6,27,-2.3856,0.5585,56.8819,10.021,57,10,1,Below Proficient,2
+Social Studies,8,7,63,-2.1006,0.5117,61.9955,9.1807,62,9,1,Below Proficient,4
+Social Studies,8,8,67,-1.8565,0.478,66.3756,8.576,66,9,1,Below Proficient,6
+Social Studies,8,9,78,-1.6405,0.4525,70.2508,8.1185,70,8,1,Below Proficient,8
+Social Studies,8,10,108,-1.445,0.4325,73.7583,7.7602,74,8,1,Below Proficient,11
+Social Studies,8,11,111,-1.265,0.4165,76.9876,7.4728,77,7,1,Below Proficient,14
+Social Studies,8,12,122,-1.0971,0.4034,79.9999,7.2382,80,7,2,Approaching Proficient,18
+Social Studies,8,13,132,-0.9388,0.3926,82.8403,7.0446,83,7,2,Approaching Proficient,21
+Social Studies,8,14,144,-0.7883,0.3837,85.5416,6.8837,86,7,2,Approaching Proficient,25
+Social Studies,8,15,157,-0.644,0.3762,88.1299,6.7498,88,7,2,Approaching Proficient,30
+Social Studies,8,16,156,-0.5049,0.37,90.6261,6.6385,91,7,2,Approaching Proficient,34
+Social Studies,8,17,146,-0.3699,0.3649,93.0474,6.547,93,7,2,Approaching Proficient,39
+Social Studies,8,18,190,-0.2383,0.3608,95.4086,6.4732,95,6,2,Approaching Proficient,44
+Social Studies,8,19,152,-0.1094,0.3576,97.7223,6.4154,98,6,2,Approaching Proficient,48
+Social Studies,8,20,146,0.0176,0.3552,100,6.3728,100,6,3,Proficient,53
+Social Studies,8,21,164,0.1431,0.3536,102.2528,6.3449,102,6,3,Proficient,57
+Social Studies,8,22,161,0.2679,0.3529,104.4909,6.3315,104,6,3,Proficient,62
+Social Studies,8,23,154,0.3924,0.353,106.7247,6.3328,107,6,3,Proficient,66
+Social Studies,8,24,129,0.5172,0.3539,108.9649,6.3494,109,6,3,Proficient,70
+Social Studies,8,25,152,0.643,0.3557,111.2224,6.3821,111,6,3,Proficient,74
+Social Studies,8,26,122,0.7705,0.3585,113.5092,6.432,114,6,3,Proficient,78
+Social Studies,8,27,110,0.9003,0.3623,115.8385,6.5007,116,7,3,Proficient,81
+Social Studies,8,28,125,1.0333,0.3673,118.2249,6.5899,118,7,3,Proficient,84
+Social Studies,8,29,115,1.1704,0.3735,120.6852,6.7019,121,7,3,Proficient,88
+Social Studies,8,30,98,1.3127,0.3812,123.2383,6.8389,123,7,3,Proficient,91
+Social Studies,8,31,69,1.4614,0.3904,125.9067,7.0041,126,7,3,Proficient,93
+Social Studies,8,32,68,1.618,0.4013,129,7.2009,129,7,4,Advanced Proficient,94
+Social Studies,8,33,43,1.7842,0.4144,131.6981,7.4345,132,7,4,Advanced Proficient,96
+Social Studies,8,34,52,1.9622,0.4299,134.8918,7.713,135,8,4,Advanced Proficient,97
+Social Studies,8,35,32,2.1549,0.4487,138.3497,8.0509,138,8,4,Advanced Proficient,98
+Social Studies,8,36,24,2.3666,0.4724,142.148,8.4761,142,8,4,Advanced Proficient,99
+Social Studies,8,37,17,2.6042,0.5039,146.4107,9.0417,146,9,4,Advanced Proficient,99
+Social Studies,8,38,17,2.88,0.5491,151.359,9.8513,151,10,4,Advanced Proficient,100
+Social Studies,8,39,2,3.2185,0.6197,157.4329,11.1195,157,11,4,Advanced Proficient,100
+Social Studies,8,40,5,3.6764,0.7453,165.6486,13.3729,166,13,4,Advanced Proficient,100
+Social Studies,8,41,2,4.4323,1.0358,179.2118,18.5855,179,19,4,Advanced Proficient,100
+Social Studies,8,42,0,5.6953,1.8522,201.8723,33.2335,202,33,4,Advanced Proficient,100

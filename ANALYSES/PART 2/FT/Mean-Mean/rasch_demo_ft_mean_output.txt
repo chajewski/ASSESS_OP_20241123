@@ -1,0 +1,2219 @@
+TABLE 1.0 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+TOO BIG FOR TABLE 1.0 - NEEDS LINELENGTH=395
+ TOO BIG FOR TABLE 1.0 - NEEDS LINELENGTH=395
+ 
+TABLE 1.1 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE                                 |                               MEASURE
+  <more> --------------------- PERSON  -+- ITEM    ----------------- <rare>
+    5                                   +                                   5
+                                        |
+                                        |
+                                     .  |
+                                        |
+                                        |
+                                        |
+                                        |
+    4                                   +                                   4
+                                     .  |
+                                     .  |
+                                        |
+                                        |
+                                     .  |
+                                        |
+                                     .  |
+    3                                .  +                                   3
+                                     .  |
+                                     .  |
+                                     .  |
+                                     .  |  D
+                                    .#  |
+                                    .#  |  D
+                                .##### T|T D
+    2                            .####  +                                   2
+                                ######  |  XD
+                               .######  |
+                                 .####  |  D
+                              .#######  |  XD
+                            .#########  |  D
+                         .############  |  D
+                     .################  |S XD
+    1                   .############# S+  DDD                              1
+                         .############  |  DDD
+               .######################  |  DDD
+                   .##################  |  D
+              .#######################  |  XDD
+                 .####################  |  XDD
+                  .###################  |  XDD
+                 .####################  |  XXXDDD
+    0      .########################## M+M DD                               0
+            .#########################  |  DDDDD
+                .#####################  |  D
+                  .###################  |  D
+                     .################  |  DDD
+                  .###################  |  DD
+                .#####################  |  DD
+                  .###################  |  DDDDDD
+   -1                  .##############  +  DD                              -1
+                         .############ S|S D
+                            .#########  |  DDD
+                        .#############  |  DD
+                            .#########  |  DDD
+                               .######  |
+                               .######  |
+                               .######  |  D
+   -2                              .##  +  DD                              -2
+                                 .####  |T D
+                                   .## T|
+                                  .###  |
+                                     .  |
+                                    .#  |
+                                    .#  |
+                                     .  |
+   -3                               .#  +                                  -3
+                                        |
+                                        |
+                                     .  |
+                                     .  |
+                                     .  |
+                                        |
+                                        |
+   -4                                   +                                  -4
+                                     .  |
+                                        |
+                                        |
+                                        |
+                                        |
+                                        |
+                                        |
+   -5                                .  +                                  -5
+         <less> --------------------- PERSON  -+- ITEM    ----------------- <freq>
+ EACH "#" IN THE PERSON COLUMN IS 7 PERSON: EACH "." IS 1 TO 6
+ 
+TABLE 1.2 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM
+               <more>|<rare>
+    5                +
+                     |
+                     |
+                  .  |
+                     |
+                     |
+                     |
+                     |
+    4                +
+                  .  |
+                  .  |
+                     |
+                     |
+                  .  |
+                     |
+                  .  |
+    3             .  +
+                  .  |
+                  .  |
+                  .  |
+                  .  |  MCQ_FT_
+                  .  |
+                  .  |  MCQ_FT_
+                .## T|T MCQ_FT_
+    2            ##  +
+                .##  |  MCQ_FT_  SCR_OP_
+                ###  |
+                 .#  |  MCQ_OP_
+               .###  |  MCQ_OP_  SCR_FT_
+              .####  |  MCQ_FT_
+             .#####  |  MCQ_OP_
+           .#######  |S MCQ_FT_  SCR_FT_
+    1       .###### S+  MCQ_FT_  MCQ_OP_  MCQ_OP_
+             .#####  |  MCQ_FT_  MCQ_OP_  MCQ_OP_
+        .##########  |  MCQ_FT_  MCQ_OP_  MCQ_OP_
+          .########  |  MCQ_FT_
+        ###########  |  MCQ_FT_  MCQ_OP_  TEI_OP_
+         .#########  |  MCQ_FT_  MCQ_FT_  TEI_FT_
+          #########  |  MCQ_FT_  MCQ_OP_  TEI_FT_
+         .#########  |  MCQ_FT_  MCQ_OP_  MCQ_OP_  TEI_FT_  TEI_FT_  TEI_OP_
+    0 .############ M+M MCQ_FT_  MCQ_OP_
+       .###########  |  MCQ_FT_  MCQ_FT_  MCQ_OP_  MCQ_OP_  MCQ_OP_
+         .#########  |  MCQ_OP_
+         .#########  |  MCQ_OP_
+           .#######  |  MCQ_FT_  MCQ_FT_  MCQ_FT_
+         .#########  |  MCQ_FT_  MCQ_FT_
+        .##########  |  MCQ_OP_  MCQ_OP_
+         .#########  |  MCQ_FT_  MCQ_FT_  MCQ_FT_  MCQ_OP_  MCQ_OP_  MCQ_OP_
+   -1       .######  +  MCQ_FT_  MCQ_OP_
+             .##### S|S MCQ_FT_
+              .####  |  MCQ_FT_  MCQ_FT_  MCQ_OP_
+            .######  |  MCQ_FT_  MCQ_FT_
+              .####  |  MCQ_FT_  MCQ_OP_  MCQ_OP_
+                ###  |
+               .###  |
+                ###  |  MCQ_FT_
+   -2            .#  +  MCQ_FT_  MCQ_OP_
+                .##  |T MCQ_OP_
+                 .# T|
+                 .#  |
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+   -3             .  +
+                     |
+                     |
+                  .  |
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<freq>
+ EACH "#" IS 15: EACH "." IS 1 TO 14
+ 
+TABLE 1.3 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE ITEM - MAP - PERSON
+         <rare>|<more>
+    5          +
+               |
+               |
+               |  SMc32
+               |
+               |
+               |
+               |
+    4          +
+               |  SFc39  SMc33
+               |  SFc23
+               |
+               |
+               |  SFc28  SFc29  SFc34
+               |
+               |  SFc26  SMc15  SMc35  SMc37
+    3          +  SFc15  SFc16  SFc19
+               |  SFc22  SFc23  SMc29  SMc31
+               |  SFc11  SFc19  SFc36  SMc14  SMc23  SMc31
+               |  SFc22  SFc32  SFc35  SMc17  SMc39  SMc39
+            X  |  SFc34  SFc36  SMc11  SMc11  SMc24  SMc37
+               |  SFc12  SFc16  SFc16  SFc21  SFc35  SFc39  SMc25  SMc31  SMc33
+                  SMc34  SMc38
+            X  |  SFc12  SFc14  SFc15  SFc23  SFc33  SFc39  SMc22  SMc34
+            X T|T SFc21  SFc21  SFc22  SFc27  SFc29  SFc31  SFc31  SFc33  SFc33
+                  SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc37  SFc37
+                  SMc12  SMc12  SMc13  SMc14  SMc15  SMc16  SMc16  SMc17  SMc18
+                  SMc31  SMc31  SMc35  SMc35  SMc36  SMc37  SMc37  SMc38  SMc39
+    2          +  SFc12  SFc12  SFc21  SFc22  SFc25  SFc28  SFc28  SFc29  SFc31
+                  SFc32  SFc33  SFc35  SFc37  SFc38  SMc12  SMc15  SMc17  SMc24
+                  SMc26  SMc31  SMc31  SMc32  SMc32  SMc33  SMc34  SMc34  SMc36
+                  SMc36  SMc36  SMc39
+           XX  |  SFc11  SFc14  SFc14  SFc14  SFc15  SFc15  SFc17  SFc17  SFc19
+                  SFc25  SFc26  SFc32  SFc32  SFc33  SFc34  SFc34  SFc34  SFc37
+                  SFc38  SMc12  SMc12  SMc16  SMc18  SMc18  SMc24  SMc24  SMc26
+                  SMc28  SMc28  SMc29  SMc31  SMc32  SMc32  SMc32  SMc34  SMc35
+                  SMc35  SMc35  SMc37  SMc37  SMc38  SMc39
+               |  SFc13  SFc13  SFc13  SFc14  SFc15  SFc16  SFc17  SFc19  SFc31
+                  SFc32  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc37
+                  SFc37  SFc39  SFc39  SMc12  SMc13  SMc13  SMc14  SMc14  SMc16
+                  SMc18  SMc19  SMc24  SMc26  SMc28  SMc31  SMc31  SMc31  SMc32
+                  SMc32  SMc32  SMc33  SMc33  SMc33  SMc35  SMc35  SMc36  SMc39
+            X  |  SFc13  SFc13  SFc14  SFc16  SFc18  SFc28  SFc33  SFc34  SFc34
+                  SFc35  SFc37  SFc39  SFc39  SMc11  SMc18  SMc19  SMc23  SMc31
+                  SMc31  SMc33  SMc34  SMc34  SMc35  SMc36  SMc37  SMc37  SMc38
+                  SMc38  SMc39
+           XX  |  SFc11  SFc12  SFc13  SFc14  SFc16  SFc16  SFc16  SFc17  SFc17
+                  SFc18  SFc18  SFc18  SFc24  SFc25  SFc26  SFc27  SFc27  SFc31
+                  SFc31  SFc32  SFc35  SFc36  SFc36  SFc36  SFc38  SFc39  SFc39
+                  SFc39  SMc12  SMc13  SMc14  SMc16  SMc19  SMc24  SMc25  SMc25
+                  SMc25  SMc25  SMc26  SMc26  SMc27  SMc27  SMc27  SMc31  SMc32
+                  SMc33  SMc34  SMc35  SMc36  SMc38  SMc38  SMc38  SMc38  SMc39
+                  SMc39
+            X  |  SFc11  SFc12  SFc13  SFc13  SFc14  SFc15  SFc15  SFc17  SFc18
+                  SFc18  SFc19  SFc23  SFc24  SFc24  SFc25  SFc28  SFc32  SFc33
+                  SFc33  SFc34  SFc34  SFc35  SFc35  SFc36  SFc37  SFc37  SFc39
+                  SFc39  SMc12  SMc12  SMc13  SMc14  SMc14  SMc14  SMc14  SMc15
+                  SMc16  SMc17  SMc18  SMc21  SMc21  SMc24  SMc24  SMc25  SMc26
+                  SMc27  SMc28  SMc29  SMc31  SMc32  SMc33  SMc33  SMc33  SMc33
+                  SMc34  SMc34  SMc34  SMc34  SMc35  SMc37  SMc37  SMc38  SMc38
+                  SMc38  SMc39  SMc39
+            X  |  SFc11  SFc11  SFc11  SFc12  SFc12  SFc13  SFc14  SFc14  SFc14
+                  SFc14  SFc15  SFc17  SFc17  SFc17  SFc18  SFc18  SFc19  SFc19
+                  SFc19  SFc19  SFc23  SFc23  SFc24  SFc31  SFc33  SFc33  SFc34
+                  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37  SFc38
+                  SFc39  SFc39  SFc39  SMc11  SMc12  SMc12  SMc12  SMc13  SMc13
+                  SMc13  SMc14  SMc14  SMc15  SMc15  SMc18  SMc18  SMc19  SMc19
+                  SMc19  SMc21  SMc21  SMc22  SMc23  SMc25  SMc28  SMc29  SMc29
+                  SMc31  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc34
+                  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc38  SMc38
+                  SMc38  SMc39  SMc39  SMc39
+           XX S|  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc14  SFc14  SFc15
+                  SFc16  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc21  SFc21
+                  SFc22  SFc22  SFc23  SFc24  SFc24  SFc25  SFc26  SFc26  SFc26
+                  SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc32
+                  SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35
+                  SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37
+                  SFc37  SFc37  SFc38  SFc38  SFc39  SFc39  SFc39  SMc11  SMc12
+                  SMc12  SMc14  SMc14  SMc14  SMc15  SMc16  SMc17  SMc17  SMc17
+                  SMc18  SMc18  SMc18  SMc19  SMc22  SMc22  SMc23  SMc23  SMc25
+                  SMc25  SMc26  SMc26  SMc28  SMc28  SMc29  SMc29  SMc29  SMc31
+                  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc34  SMc34  SMc34
+                  SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc38
+                  SMc38  SMc39  SMc39  SMc39  SMc39
+    1     XXX  +S SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc13  SFc13  SFc13
+                  SFc15  SFc15  SFc19  SFc21  SFc22  SFc22  SFc23  SFc24  SFc24
+                  SFc26  SFc27  SFc27  SFc28  SFc31  SFc32  SFc32  SFc33  SFc34
+                  SFc34  SFc35  SFc35  SFc35  SFc36  SFc37  SFc37  SFc37  SFc37
+                  SFc38  SFc38  SFc39  SFc39  SMc11  SMc11  SMc12  SMc12  SMc12
+                  SMc13  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc16  SMc18
+                  SMc19  SMc19  SMc21  SMc21  SMc22  SMc23  SMc24  SMc28  SMc31
+                  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32
+                  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc34  SMc34
+                  SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37
+                  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39
+          XXX  |  SFc11  SFc11  SFc11  SFc12  SFc13  SFc14  SFc14  SFc14  SFc14
+                  SFc15  SFc15  SFc16  SFc16  SFc16  SFc18  SFc18  SFc18  SFc18
+                  SFc19  SFc24  SFc27  SFc28  SFc29  SFc32  SFc32  SFc33  SFc33
+                  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36  SFc36
+                  SFc36  SFc37  SFc38  SFc39  SFc39  SMc11  SMc12  SMc12  SMc12
+                  SMc13  SMc15  SMc16  SMc18  SMc18  SMc18  SMc19  SMc19  SMc21
+                  SMc21  SMc21  SMc22  SMc23  SMc25  SMc25  SMc26  SMc26  SMc26
+                  SMc27  SMc28  SMc28  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33
+                  SMc33  SMc33  SMc33  SMc34  SMc35  SMc35  SMc35  SMc36  SMc36
+                  SMc37  SMc37  SMc37  SMc37  SMc38
+          XXX  |  SFc11  SFc11  SFc12  SFc12  SFc13  SFc13  SFc13  SFc13  SFc13
+                  SFc13  SFc14  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                  SFc15  SFc15  SFc15  SFc16  SFc16  SFc18  SFc18  SFc18  SFc18
+                  SFc18  SFc19  SFc21  SFc21  SFc22  SFc22  SFc22  SFc22  SFc23
+                  SFc23  SFc24  SFc25  SFc25  SFc25  SFc25  SFc26  SFc26  SFc27
+                  SFc27  SFc27  SFc28  SFc28  SFc29  SFc31  SFc31  SFc31  SFc31
+                  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc34
+                  SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36
+                  SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc39  SFc39  SMc11
+                  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc14  SMc14  SMc15
+                  SMc15  SMc15  SMc15  SMc15  SMc16  SMc17  SMc17  SMc18  SMc18
+                  SMc19  SMc21  SMc21  SMc21  SMc23  SMc23  SMc24  SMc25  SMc25
+                  SMc25  SMc26  SMc26  SMc27  SMc27  SMc27  SMc27  SMc29  SMc29
+                  SMc31  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33
+                  SMc33  SMc33  SMc33  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36
+                  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37
+                  SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                  SMc39  SMc39  SMc39  SMc39
+            X  |  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc15  SFc15
+                  SFc16  SFc16  SFc16  SFc17  SFc18  SFc21  SFc22  SFc23  SFc24
+                  SFc26  SFc27  SFc27  SFc27  SFc28  SFc28  SFc28  SFc31  SFc31
+                  SFc31  SFc31  SFc31  SFc32  SFc32  SFc33  SFc34  SFc34  SFc34
+                  SFc34  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37
+                  SFc38  SFc39  SFc39  SFc39  SFc39  SFc39  SMc12  SMc13  SMc13
+                  SMc13  SMc13  SMc13  SMc14  SMc14  SMc15  SMc15  SMc16  SMc16
+                  SMc16  SMc16  SMc17  SMc18  SMc18  SMc19  SMc19  SMc19  SMc21
+                  SMc23  SMc24  SMc26  SMc27  SMc27  SMc27  SMc27  SMc29  SMc29
+                  SMc29  SMc29  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32
+                  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc34
+                  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35  SMc36
+                  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37
+                  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39
+                  SMc39
+          XXX  |  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13
+                  SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc17  SFc17  SFc17
+                  SFc17  SFc17  SFc18  SFc18  SFc18  SFc22  SFc23  SFc23  SFc24
+                  SFc24  SFc24  SFc25  SFc25  SFc26  SFc26  SFc26  SFc27  SFc27
+                  SFc27  SFc27  SFc27  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                  SFc31  SFc31  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33
+                  SFc34  SFc34  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36
+                  SFc36  SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc38  SFc39
+                  SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc11  SMc12  SMc12
+                  SMc13  SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc14  SMc14
+                  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc17  SMc17  SMc17
+                  SMc18  SMc18  SMc18  SMc18  SMc18  SMc19  SMc19  SMc19  SMc21
+                  SMc21  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23  SMc24  SMc25
+                  SMc26  SMc26  SMc26  SMc28  SMc29  SMc31  SMc31  SMc32  SMc32
+                  SMc32  SMc33  SMc33  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34
+                  SMc34  SMc34  SMc35  SMc35  SMc35  SMc37  SMc37  SMc37  SMc37
+                  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38
+                  SMc38  SMc39  SMc39
+          XXX  |  SFc11  SFc11  SFc12  SFc13  SFc13  SFc14  SFc14  SFc15  SFc15
+                  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc19  SFc19  SFc21
+                  SFc21  SFc21  SFc22  SFc23  SFc24  SFc26  SFc26  SFc27  SFc28
+                  SFc28  SFc28  SFc28  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc33
+                  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc34
+                  SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37
+                  SFc38  SFc38  SFc38  SFc39  SFc39  SMc11  SMc12  SMc13  SMc13
+                  SMc13  SMc14  SMc14  SMc15  SMc15  SMc15  SMc15  SMc16  SMc17
+                  SMc17  SMc17  SMc17  SMc18  SMc18  SMc18  SMc19  SMc19  SMc19
+                  SMc22  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23  SMc25  SMc25
+                  SMc26  SMc26  SMc27  SMc27  SMc28  SMc28  SMc28  SMc29  SMc31
+                  SMc31  SMc31  SMc31  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33
+                  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36
+                  SMc36  SMc37  SMc37  SMc37  SMc38  SMc39  SMc39  SMc39  SMc39
+                  SMc39  SMc39
+          XXX  |  SFc11  SFc11  SFc12  SFc13  SFc14  SFc14  SFc15  SFc15  SFc15
+                  SFc16  SFc16  SFc17  SFc18  SFc18  SFc18  SFc19  SFc21  SFc21
+                  SFc21  SFc21  SFc21  SFc21  SFc22  SFc24  SFc25  SFc25  SFc26
+                  SFc27  SFc28  SFc28  SFc28  SFc28  SFc29  SFc31  SFc31  SFc31
+                  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc33
+                  SFc34  SFc34  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36
+                  SFc36  SFc36  SFc37  SFc37  SFc37  SFc38  SFc39  SFc39  SMc11
+                  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                  SMc14  SMc14  SMc14  SMc15  SMc15  SMc15  SMc16  SMc16  SMc18
+                  SMc18  SMc18  SMc18  SMc19  SMc19  SMc19  SMc19  SMc21  SMc21
+                  SMc21  SMc22  SMc23  SMc25  SMc25  SMc25  SMc26  SMc27  SMc27
+                  SMc28  SMc29  SMc29  SMc29  SMc29  SMc31  SMc32  SMc32  SMc32
+                  SMc32  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc34  SMc36
+                  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc38
+                  SMc38  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39
+       XXXXXX  |  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc14  SFc14  SFc14
+                  SFc15  SFc15  SFc15  SFc15  SFc16  SFc16  SFc16  SFc17  SFc17
+                  SFc18  SFc18  SFc18  SFc19  SFc19  SFc19  SFc19  SFc22  SFc23
+                  SFc24  SFc24  SFc26  SFc26  SFc26  SFc27  SFc28  SFc31  SFc31
+                  SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc32
+                  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33
+                  SFc33  SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34
+                  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc36  SFc37
+                  SFc37  SFc37  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SFc39
+                  SFc39  SFc39  SFc39  SMc11  SMc11  SMc11  SMc11  SMc11  SMc12
+                  SMc14  SMc16  SMc16  SMc17  SMc17  SMc17  SMc18  SMc18  SMc18
+                  SMc19  SMc21  SMc22  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24
+                  SMc24  SMc25  SMc28  SMc28  SMc29  SMc31  SMc31  SMc31  SMc32
+                  SMc32  SMc33  SMc34  SMc34  SMc34  SMc34  SMc36  SMc36  SMc36
+                  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc37
+                  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39  SMc39  SMc39
+    0      XX M+M SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc12
+                  SFc12  SFc14  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                  SFc15  SFc15  SFc15  SFc15  SFc15  SFc15  SFc16  SFc16  SFc16
+                  SFc16  SFc16  SFc16  SFc16  SFc17  SFc17  SFc17  SFc18  SFc18
+                  SFc18  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc21  SFc22
+                  SFc23  SFc23  SFc24  SFc24  SFc24  SFc24  SFc25  SFc25  SFc25
+                  SFc25  SFc25  SFc26  SFc26  SFc27  SFc29  SFc31  SFc31  SFc31
+                  SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33
+                  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc35  SFc35  SFc35
+                  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37  SFc38  SFc38
+                  SFc38  SFc38  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SMc11
+                  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                  SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc15  SMc15  SMc15
+                  SMc15  SMc15  SMc15  SMc16  SMc17  SMc17  SMc17  SMc17  SMc17
+                  SMc18  SMc18  SMc18  SMc18  SMc18  SMc18  SMc18  SMc19  SMc19
+                  SMc19  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24  SMc26  SMc26
+                  SMc26  SMc27  SMc27  SMc28  SMc29  SMc31  SMc32  SMc32  SMc32
+                  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33
+                  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                  SMc35  SMc36  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38
+                  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39
+        XXXXX  |  SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc15  SFc16  SFc17
+                  SFc17  SFc17  SFc17  SFc17  SFc21  SFc22  SFc22  SFc22  SFc23
+                  SFc23  SFc23  SFc23  SFc24  SFc24  SFc25  SFc25  SFc26  SFc27
+                  SFc27  SFc27  SFc27  SFc28  SFc29  SFc29  SFc29  SFc29  SFc31
+                  SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33
+                  SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34
+                  SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36
+                  SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc37
+                  SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc38  SFc38  SFc38
+                  SFc38  SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc12  SMc13
+                  SMc13  SMc13  SMc15  SMc15  SMc16  SMc16  SMc17  SMc17  SMc18
+                  SMc19  SMc21  SMc21  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23
+                  SMc23  SMc24  SMc24  SMc24  SMc24  SMc24  SMc25  SMc25  SMc27
+                  SMc27  SMc27  SMc28  SMc29  SMc31  SMc31  SMc31  SMc31  SMc32
+                  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33
+                  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35
+                  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36
+                  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc37  SMc37  SMc37
+                  SMc37  SMc37  SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38
+                  SMc38  SMc38  SMc39  SMc39  SMc39
+            X  |  SFc11  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12
+                  SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc14  SFc14
+                  SFc14  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc18  SFc18
+                  SFc18  SFc21  SFc22  SFc23  SFc25  SFc25  SFc25  SFc26  SFc26
+                  SFc27  SFc27  SFc27  SFc28  SFc29  SFc31  SFc31  SFc32  SFc32
+                  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc35  SFc35  SFc35
+                  SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc38  SFc38  SFc38
+                  SFc39  SFc39  SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc11
+                  SMc12  SMc12  SMc12  SMc13  SMc13  SMc14  SMc14  SMc14  SMc15
+                  SMc15  SMc15  SMc15  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16
+                  SMc16  SMc16  SMc16  SMc17  SMc17  SMc18  SMc19  SMc19  SMc21
+                  SMc21  SMc21  SMc21  SMc22  SMc22  SMc23  SMc24  SMc26  SMc26
+                  SMc26  SMc27  SMc28  SMc28  SMc29  SMc29  SMc29  SMc29  SMc31
+                  SMc31  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33  SMc33
+                  SMc33  SMc33  SMc33  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35
+                  SMc35  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc38
+                  SMc38  SMc39  SMc39  SMc39
+            X  |  SFc11  SFc11  SFc11  SFc11  SFc13  SFc13  SFc13  SFc15  SFc15
+                  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19
+                  SFc19  SFc19  SFc21  SFc21  SFc22  SFc22  SFc26  SFc26  SFc26
+                  SFc27  SFc27  SFc27  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                  SFc31  SFc31  SFc32  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34
+                  SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc36  SFc36
+                  SFc36  SFc37  SFc37  SFc37  SFc37  SFc38  SFc39  SMc11  SMc11
+                  SMc12  SMc12  SMc13  SMc13  SMc13  SMc14  SMc15  SMc15  SMc16
+                  SMc16  SMc16  SMc16  SMc17  SMc19  SMc19  SMc19  SMc21  SMc21
+                  SMc22  SMc24  SMc24  SMc24  SMc25  SMc25  SMc26  SMc27  SMc27
+                  SMc29  SMc29  SMc29  SMc29  SMc29  SMc29  SMc29  SMc31  SMc31
+                  SMc31  SMc31  SMc31  SMc31  SMc31  SMc31  SMc31  SMc32  SMc32
+                  SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33
+                  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36
+                  SMc36  SMc36  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                  SMc39  SMc39  SMc39
+          XXX  |  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13  SFc13
+                  SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15
+                  SFc16  SFc16  SFc16  SFc17  SFc17  SFc19  SFc19  SFc19  SFc19
+                  SFc19  SFc19  SFc22  SFc22  SFc23  SFc24  SFc24  SFc25  SFc26
+                  SFc28  SFc28  SFc28  SFc28  SFc31  SFc31  SFc32  SFc32  SFc32
+                  SFc32  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc35
+                  SFc35  SFc35  SFc36  SFc36  SFc38  SFc38  SFc39  SFc39  SFc39
+                  SFc39  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc14  SMc14
+                  SMc15  SMc16  SMc16  SMc17  SMc18  SMc19  SMc21  SMc21  SMc24
+                  SMc25  SMc25  SMc26  SMc26  SMc26  SMc26  SMc27  SMc27  SMc28
+                  SMc28  SMc29  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc33
+                  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc37  SMc37  SMc37
+                  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39
+                  SMc39
+           XX  |  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13
+                  SFc13  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15  SFc15  SFc16
+                  SFc16  SFc17  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc19
+                  SFc21  SFc23  SFc23  SFc23  SFc24  SFc25  SFc25  SFc25  SFc26
+                  SFc27  SFc28  SFc28  SFc28  SFc28  SFc29  SFc32  SFc32  SFc32
+                  SFc32  SFc32  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc35
+                  SFc35  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc36
+                  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38  SFc38  SFc38
+                  SFc39  SFc39  SFc39  SMc12  SMc12  SMc12  SMc13  SMc13  SMc13
+                  SMc13  SMc14  SMc15  SMc16  SMc16  SMc17  SMc17  SMc17  SMc17
+                  SMc19  SMc21  SMc22  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24
+                  SMc25  SMc25  SMc27  SMc29  SMc31  SMc31  SMc31  SMc31  SMc31
+                  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc34  SMc34  SMc34
+                  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35  SMc35
+                  SMc36  SMc36  SMc37  SMc37  SMc37  SMc38  SMc38  SMc39  SMc39
+                  SMc39  SMc39  SMc39
+           XX  |  SFc11  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12
+                  SFc12  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15
+                  SFc16  SFc16  SFc16  SFc16  SFc17  SFc17  SFc17  SFc17  SFc17
+                  SFc17  SFc18  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc21
+                  SFc22  SFc23  SFc25  SFc25  SFc26  SFc27  SFc27  SFc28  SFc28
+                  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31  SFc31  SFc32  SFc32
+                  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35
+                  SFc35  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37
+                  SFc37  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SFc39  SFc39
+                  SMc11  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12
+                  SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc14  SMc14  SMc14
+                  SMc15  SMc16  SMc17  SMc17  SMc17  SMc17  SMc17  SMc17  SMc18
+                  SMc19  SMc19  SMc19  SMc19  SMc22  SMc23  SMc24  SMc25  SMc26
+                  SMc28  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33
+                  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                  SMc36  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                  SMc38  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39
+       XXXXXX  |  SFc12  SFc13  SFc14  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17
+                  SFc19  SFc22  SFc22  SFc22  SFc22  SFc26  SFc26  SFc26  SFc27
+                  SFc28  SFc28  SFc28  SFc28  SFc31  SFc31  SFc31  SFc32  SFc32
+                  SFc32  SFc32  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33
+                  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc36
+                  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38  SFc38
+                  SFc38  SFc38  SFc39  SFc39  SFc39  SFc39  SFc39  SFc39  SFc39
+                  SFc39  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                  SMc13  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc16  SMc17
+                  SMc17  SMc17  SMc17  SMc17  SMc18  SMc18  SMc19  SMc21  SMc22
+                  SMc22  SMc22  SMc23  SMc23  SMc24  SMc25  SMc25  SMc25  SMc26
+                  SMc26  SMc27  SMc27  SMc28  SMc28  SMc29  SMc29  SMc31  SMc31
+                  SMc31  SMc31  SMc32  SMc33  SMc33  SMc33  SMc34  SMc34  SMc34
+                  SMc35  SMc35  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36
+                  SMc36  SMc37  SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38
+                  SMc39
+   -1      XX  +  SFc11  SFc11  SFc12  SFc13  SFc13  SFc14  SFc14  SFc15  SFc15
+                  SFc16  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc22  SFc23
+                  SFc25  SFc26  SFc26  SFc26  SFc26  SFc26  SFc27  SFc27  SFc28
+                  SFc28  SFc28  SFc29  SFc31  SFc31  SFc32  SFc32  SFc33  SFc33
+                  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc35  SFc36  SFc36
+                  SFc36  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38
+                  SFc38  SFc39  SFc39  SFc39  SMc12  SMc12  SMc13  SMc14  SMc14
+                  SMc16  SMc17  SMc17  SMc18  SMc19  SMc19  SMc21  SMc21  SMc22
+                  SMc22  SMc25  SMc26  SMc26  SMc26  SMc28  SMc29  SMc31  SMc32
+                  SMc32  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc34  SMc35
+                  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39
+                  SMc39
+            X S|S SFc11  SFc11  SFc13  SFc14  SFc15  SFc15  SFc16  SFc18  SFc18
+                  SFc18  SFc19  SFc19  SFc21  SFc22  SFc23  SFc23  SFc24  SFc24
+                  SFc25  SFc27  SFc29  SFc29  SFc29  SFc31  SFc32  SFc32  SFc32
+                  SFc32  SFc33  SFc34  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36
+                  SFc36  SFc36  SFc36  SFc37  SFc37  SFc38  SFc38  SFc39  SFc39
+                  SFc39  SFc39  SMc11  SMc12  SMc15  SMc15  SMc18  SMc18  SMc19
+                  SMc21  SMc21  SMc21  SMc23  SMc25  SMc27  SMc27  SMc27  SMc28
+                  SMc29  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33
+                  SMc34  SMc34  SMc35  SMc35  SMc35  SMc37  SMc37  SMc37  SMc38
+                  SMc38  SMc38  SMc39  SMc39  SMc39  SMc39
+          XXX  |  SFc11  SFc12  SFc13  SFc16  SFc18  SFc18  SFc19  SFc22  SFc22
+                  SFc24  SFc24  SFc25  SFc25  SFc25  SFc25  SFc25  SFc27  SFc27
+                  SFc27  SFc28  SFc31  SFc32  SFc33  SFc33  SFc33  SFc34  SFc34
+                  SFc34  SFc35  SFc35  SFc37  SFc37  SFc38  SFc39  SMc12  SMc14
+                  SMc14  SMc15  SMc15  SMc15  SMc16  SMc21  SMc21  SMc21  SMc21
+                  SMc21  SMc23  SMc24  SMc24  SMc26  SMc27  SMc31  SMc33  SMc33
+                  SMc33  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc37
+                  SMc37  SMc37  SMc37  SMc37  SMc37  SMc38
+           XX  |  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc14  SFc15
+                  SFc15  SFc15  SFc17  SFc17  SFc17  SFc17  SFc18  SFc18  SFc21
+                  SFc22  SFc24  SFc25  SFc27  SFc28  SFc29  SFc31  SFc31  SFc31
+                  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc34
+                  SFc34  SFc34  SFc34  SFc34  SFc34  SFc34  SFc35  SFc36  SFc36
+                  SFc36  SFc36  SFc37  SFc37  SFc38  SFc38  SFc39  SFc39  SMc11
+                  SMc13  SMc14  SMc14  SMc16  SMc17  SMc18  SMc18  SMc18  SMc18
+                  SMc19  SMc19  SMc19  SMc19  SMc23  SMc24  SMc24  SMc25  SMc29
+                  SMc29  SMc31  SMc31  SMc31  SMc32  SMc33  SMc33  SMc34  SMc36
+                  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc38
+                  SMc38  SMc39  SMc39
+          XXX  |  SFc12  SFc12  SFc13  SFc15  SFc16  SFc16  SFc17  SFc18  SFc23
+                  SFc23  SFc25  SFc25  SFc28  SFc28  SFc29  SFc31  SFc31  SFc32
+                  SFc32  SFc32  SFc34  SFc34  SFc34  SFc35  SFc35  SFc36  SFc37
+                  SFc37  SFc37  SFc37  SFc38  SFc39  SFc39  SFc39  SMc11  SMc11
+                  SMc11  SMc11  SMc11  SMc11  SMc11  SMc13  SMc13  SMc15  SMc16
+                  SMc17  SMc17  SMc17  SMc19  SMc21  SMc25  SMc25  SMc29  SMc31
+                  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc34  SMc34  SMc36
+                  SMc36  SMc37  SMc38  SMc38  SMc39
+               |  SFc13  SFc14  SFc15  SFc15  SFc17  SFc17  SFc17  SFc18  SFc19
+                  SFc19  SFc19  SFc23  SFc24  SFc24  SFc26  SFc27  SFc31  SFc32
+                  SFc33  SFc34  SFc34  SFc36  SFc39  SMc11  SMc16  SMc17  SMc17
+                  SMc17  SMc19  SMc19  SMc28  SMc32  SMc32  SMc32  SMc32  SMc33
+                  SMc33  SMc34  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc39
+               |  SFc11  SFc13  SFc13  SFc13  SFc18  SFc19  SFc19  SFc22  SFc23
+                  SFc23  SFc25  SFc27  SFc31  SFc32  SFc32  SFc32  SFc33  SFc33
+                  SFc35  SFc35  SFc36  SFc37  SFc38  SMc11  SMc12  SMc13  SMc16
+                  SMc18  SMc19  SMc21  SMc21  SMc22  SMc22  SMc23  SMc24  SMc31
+                  SMc31  SMc31  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38
+                  SMc39  SMc39
+            X  |  SFc12  SFc15  SFc16  SFc18  SFc21  SFc22  SFc25  SFc26  SFc32
+                  SFc32  SFc33  SFc33  SFc33  SFc34  SFc35  SFc35  SFc36  SFc36
+                  SFc38  SFc38  SFc39  SMc12  SMc14  SMc14  SMc15  SMc15  SMc19
+                  SMc22  SMc23  SMc25  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33
+                  SMc33  SMc33  SMc34  SMc34  SMc36  SMc37  SMc38  SMc39  SMc39
+   -2      XX  +  SFc14  SFc15  SFc19  SFc24  SFc25  SFc25  SFc31  SFc32  SFc33
+                  SFc37  SMc13  SMc16  SMc18  SMc27  SMc31  SMc33  SMc35  SMc35
+                  SMc37  SMc39
+            X T|  SFc11  SFc12  SFc14  SFc15  SFc18  SFc18  SFc21  SFc24  SFc26
+                  SFc31  SFc32  SFc32  SFc36  SFc37  SFc37  SMc11  SMc12  SMc16
+                  SMc16  SMc18  SMc19  SMc21  SMc29  SMc32  SMc33  SMc34  SMc34
+                  SMc35  SMc35  SMc36  SMc38
+               |T SFc11  SFc13  SFc15  SFc17  SFc19  SFc19  SFc32  SFc39  SMc12
+                  SMc12  SMc16  SMc17  SMc18  SMc19  SMc27  SMc32  SMc32  SMc36
+               |  SFc13  SFc19  SFc21  SFc23  SFc26  SFc27  SFc28  SFc31  SFc32
+                  SFc33  SFc33  SFc35  SFc35  SFc38  SFc39  SFc39  SMc11  SMc16
+                  SMc16  SMc18  SMc19  SMc19  SMc23  SMc32  SMc34
+               |  SMc11  SMc15
+               |  SFc17  SFc23  SFc24  SFc26  SFc31  SFc32  SMc15  SMc17  SMc25
+                  SMc27  SMc29  SMc32  SMc38
+               |  SFc15  SFc18  SFc29  SMc12  SMc13  SMc17  SMc17  SMc18
+               |  SFc35  SFc38
+   -3          +  SFc32  SFc35  SFc36  SFc37  SFc39  SMc15  SMc34  SMc35  SMc39
+                  SMc39
+               |
+               |
+               |  SFc32  SMc38
+               |  SMc22  SMc37
+               |  SFc15  SMc11  SMc13  SMc14
+               |
+               |
+   -4          +
+               |  SFc35
+               |
+               |
+               |
+               |
+               |
+               |
+   -5          +  SMc26
+         <freq>|<less>
+ 
+TABLE 1.4 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+ MEASURE               | BOTTOM P=50%  | MEASURE       | TOP P=50%    MEASURE
+  <more> ----- PERSON -+- ITEM        -+- ITEM        -+- ITEM         <rare>
+    5                  +               +               +                  5
+                       |               |               |
+                       |               |               |
+                     . |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+    4                  +               +               + X                4
+                     . |               |               |
+                     . |               |               |
+                       |               |               |
+                       |               |               |
+                     . |               |               |
+                       |               |               |
+                     . |               |               |
+    3                . +               +               +                  3
+                     . |               |               |
+                     . |               |               |
+                     . |               |               | X
+                     . |               | D             |
+                     . |               |               | X
+                     . |               | D             |
+                   .## |               | D             |
+    2               ## +               +               +                  2
+                   .## |               | XD            |
+                   ### |               |               |
+                    .# |               | D             |
+                  .### |               | XD            |
+                 .#### |               | D             | X
+                .##### |               | D             |
+              .####### |               | XD            | X
+    1          .###### +               + DDD           + XX               1
+                .##### |               | DDD           | X
+           .########## |               | DDD           |
+             .######## |               | D             | X
+           ########### |               | XDD           |
+            .######### |               | XDD           |
+             ######### |               | XDD           |
+            .######### |               | XXXDDD        |
+    0    .############ + X             + DD            +                  0
+          .########### | XXX           | DDDDD         |
+            .######### |               | D             |
+            .######### | XX            | D             |
+              .####### |               | DDD           |
+            .######### | X             | DD            |
+           .########## | XX            | DD            |
+            .######### |               | DDDDDD        |
+   -1          .###### +               + DD            +                 -1
+                .##### |               | D             |
+                 .#### |               | DDD           |
+               .###### |               | DD            |
+                 .#### |               | DDD           |
+                   ### |               |               |
+                  .### |               |               |
+                   ### |               | D             |
+   -2               .# +               + DD            +                 -2
+                   .## |               | D             |
+                    .# |               |               |
+                    .# |               |               |
+                     . |               |               |
+                     . |               |               |
+                     . |               |               |
+                     . |               |               |
+   -3                . +               +               +                 -3
+                       |               |               |
+                       |               |               |
+                     . |               |               |
+                     . |               |               |
+                     . |               |               |
+                       |               |               |
+                       |               |               |
+   -4                  +               +               +                 -4
+                     . |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+                       |               |               |
+   -5                . +               +               +                 -5
+  <less> ----- PERSON -+- ITEM        -+- ITEM        -+- ITEM         <freq>
+WAAAA  EACH "#" IN THE PERSON COLUMN IS 15 PERSON: EACH "." IS 1 TO 14
+ 
+TABLE 1.5 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM - Expected score zones (Rasch-half-point thresholds)
+               <more>|<rare> 1        2        3        4        5        6
+                  .  |
+                     |
+                     |
+                     |                                               SCR_.55
+                     |
+    4                +
+                  .  |
+                  .  |
+                     |
+                     |
+                  .  |
+                     |
+                  .  |
+    3             .  +                                      SCR_.45
+                  .  |                                               SCR_.55
+                  .  |                                               SCR_.55
+                  .  |
+                  .  |  MCQ_.05
+                  .  |
+                  .  |  MCQ_.05                    SCR_.35
+                .## T|T MCQ_.05                             SCR_.45
+    2            ##  +
+                .##  |  MCQ_.05
+                ###  |                             SCR_.35  SCR_.45
+                 .#  |  MCQ_.05
+               .###  |  MCQ_.05  TEI_.15  SCR_.25
+              .####  |  MCQ_.05  TEI_.15  SCR_.25
+                                 TEI_.15
+             .#####  |  MCQ_.05                    SCR_.35
+           .#######  |S MCQ_.05  TEI_.15
+                                 TEI_.15
+    1       .###### S+  MCQ_.05  TEI_.15
+                        MCQ_.05
+                        MCQ_.05
+             .#####  |  MCQ_.05  SCR_.15  SCR_.25
+                        MCQ_.05
+                        MCQ_.05
+        .##########  |  MCQ_.05  SCR_.15
+                        MCQ_.05
+                        MCQ_.05
+          .########  |  MCQ_.05
+        ###########  |  MCQ_.05
+                        MCQ_.05
+         .#########  |  MCQ_.05  SCR_.15
+                        MCQ_.05
+          #########  |  MCQ_.05
+                        MCQ_.05
+         .#########  |  MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+    0 .############ M+M MCQ_.05
+                        MCQ_.05
+       .###########  |  MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+         .#########  |  MCQ_.05
+                        SCR_.05
+         .#########  |  MCQ_.05
+                        SCR_.05
+                        TEI_.05
+           .#######  |  MCQ_.05
+                        MCQ_.05
+                        SCR_.05
+                        MCQ_.05
+         .#########  |  MCQ_.05
+                        MCQ_.05
+                        TEI_.05
+        .##########  |  MCQ_.05
+                        TEI_.05
+                        MCQ_.05
+         .#########  |  MCQ_.05
+                        TEI_.05
+                        MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+   -1       .######  +  TEI_.05
+                        TEI_.05
+                        MCQ_.05
+                        MCQ_.05
+             .##### S|S MCQ_.05
+              .####  |  MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+            .######  |  MCQ_.05
+                        MCQ_.05
+              .####  |  MCQ_.05
+                        MCQ_.05
+                        MCQ_.05
+                ###  |
+               .###  |
+                ###  |  MCQ_.05
+   -2            .#  +  MCQ_.05
+                        MCQ_.05
+                .##  |T MCQ_.05
+                 .# T|
+                 .#  |
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+   -3             .  +
+                     |
+                     |
+                  .  |
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<freq> 0        1        2        3        4        5
+        EACH "#" IS 15: EACH "." IS 1 TO 14
+ 
+TABLE 1.6 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM - 50% Cumulative probabilities (Rasch-Thurstonian thresholds)
+               <more>|<rare> 1        2        3        4        5        6
+                  .  |
+                     |
+                     |
+                     |
+                     |
+    4                +                                               SCR_O.6
+                  .  |
+                  .  |
+                     |
+                     |
+                  .  |
+                     |
+                  .  |
+    3             .  +
+                  .  |                                      SCR_O.5
+                  .  |
+                  .  |
+                  .  |  MCQ_F.1                                      SCR_F.6
+                  .  |                                               SCR_F.6
+                  .  |  MCQ_F.1                    SCR_O.4
+                .## T|T MCQ_F.1
+    2            ##  +                                      SCR_F.5
+                .##  |  MCQ_F.1
+                ###  |                             SCR_F.4  SCR_F.5
+                 .#  |  MCQ_O.1
+               .###  |  MCQ_O.1           SCR_O.3
+                                          SCR_F.3
+              .####  |  MCQ_F.1
+             .#####  |  MCQ_O.1  TEI_F.2           SCR_F.4
+           .#######  |S MCQ_F.1  TEI_F.2
+                                 SCR_F.2
+    1       .###### S+  MCQ_O.1  TEI_O.2
+                        MCQ_F.1
+                        MCQ_O.1
+             .#####  |  MCQ_F.1  TEI_O.2  SCR_F.3
+                        MCQ_O.1  TEI_F.2
+                        MCQ_O.1  SCR_O.2
+        .##########  |  MCQ_O.1
+                        MCQ_O.1
+                        MCQ_F.1
+          .########  |  MCQ_F.1  TEI_F.2
+        ###########  |  MCQ_F.1  SCR_F.2
+                        MCQ_O.1
+         .#########  |  MCQ_F.1
+                        MCQ_F.1
+          #########  |  MCQ_F.1
+                        MCQ_O.1
+         .#########  |  MCQ_F.1
+                        MCQ_O.1
+                        MCQ_O.1
+    0 .############ M+M MCQ_F.1
+                        SCR_F.1
+                        MCQ_O.1
+       .###########  |  MCQ_O.1
+                        MCQ_O.1
+                        SCR_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+                        MCQ_O.1
+                        SCR_F.1
+                        TEI_O.1
+         .#########  |  MCQ_O.1
+         .#########  |  TEI_F.1
+                        MCQ_O.1
+           .#######  |  MCQ_F.1
+                        MCQ_F.1
+                        TEI_F.1
+                        MCQ_F.1
+         .#########  |  TEI_F.1
+                        MCQ_F.1
+                        MCQ_F.1
+        .##########  |  MCQ_O.1
+                        TEI_F.1
+                        TEI_O.1
+                        MCQ_O.1
+         .#########  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_O.1
+                        MCQ_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+   -1       .######  +  MCQ_O.1
+                        MCQ_F.1
+             .##### S|S MCQ_F.1
+              .####  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+            .######  |  MCQ_F.1
+                        MCQ_F.1
+              .####  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_O.1
+                ###  |
+               .###  |
+                ###  |  MCQ_F.1
+   -2            .#  +  MCQ_F.1
+                        MCQ_O.1
+                .##  |T MCQ_O.1
+                 .# T|
+                 .#  |
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+   -3             .  +
+                     |
+                     |
+                  .  |
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<freq> 0        1        2        3        4        5
+        EACH "#" IS 15: EACH "." IS 1 TO 14
+ 
+TABLE 1.7 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM - Andrich thresholds (modal categories if ordered)
+               <more>|<rare> 1        2        3        4        5        6
+                  .  |
+                     |
+                     |
+                     |
+                     |
+    4                +
+                  .  |
+                  .  |                                               SCR_O.6
+                     |
+                     |
+                  .  |
+                     |
+                  .  |
+    3             .  +
+                  .  |
+                  .  |
+                  .  |
+                  .  |  MCQ_F.1                    SCR_O.4  SCR_O.5
+                  .  |
+                  .  |  MCQ_F.1
+                .## T|T MCQ_F.1                                      SCR_F.6
+    2            ##  +
+                .##  |  MCQ_F.1                    SCR_F.4           SCR_F.6
+                ###  |                                      SCR_F.5
+                 .#  |  MCQ_O.1           SCR_F.3
+               .###  |  MCQ_O.1  SCR_F.2  SCR_O.3
+              .####  |  MCQ_F.1                             SCR_F.5
+             .#####  |  MCQ_O.1
+           .#######  |S MCQ_F.1  TEI_F.2           SCR_F.4
+    1       .###### S+  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_O.1
+             .#####  |  MCQ_F.1  TEI_F.2  SCR_F.3
+                        MCQ_O.1  SCR_O.2
+                        MCQ_O.1
+        .##########  |  MCQ_O.1  SCR_F.2
+                        MCQ_O.1  TEI_O.2
+                        MCQ_F.1  TEI_O.2
+          .########  |  MCQ_F.1  TEI_F.2
+        ###########  |  MCQ_F.1
+                        MCQ_O.1
+         .#########  |  MCQ_F.1
+                        SCR_F.1
+                        MCQ_F.1
+          #########  |  SCR_O.1
+                        TEI_O.1
+                        MCQ_F.1
+                        SCR_F.1
+                        MCQ_O.1
+         .#########  |  TEI_F.1  TEI_F.2
+                        MCQ_F.1
+                        MCQ_O.1
+                        MCQ_O.1
+    0 .############ M+M MCQ_F.1
+                        MCQ_O.1
+       .###########  |  MCQ_O.1
+                        MCQ_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+                        MCQ_O.1
+         .#########  |  TEI_F.1
+                        MCQ_O.1
+         .#########  |  MCQ_O.1
+           .#######  |  MCQ_F.1
+                        MCQ_F.1
+                        TEI_F.1
+                        TEI_O.1
+                        MCQ_F.1
+         .#########  |  TEI_F.1
+                        MCQ_F.1
+                        MCQ_F.1
+        .##########  |  MCQ_O.1
+                        MCQ_O.1
+         .#########  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_O.1
+                        MCQ_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+   -1       .######  +  MCQ_O.1
+                        MCQ_F.1
+             .##### S|S MCQ_F.1
+              .####  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_F.1
+            .######  |  MCQ_F.1
+                        MCQ_F.1
+              .####  |  MCQ_O.1
+                        MCQ_F.1
+                        MCQ_O.1
+                ###  |
+               .###  |
+                ###  |  MCQ_F.1
+   -2            .#  +  MCQ_F.1
+                        MCQ_O.1
+                .##  |T MCQ_O.1
+                 .# T|
+                 .#  |
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+   -3             .  +
+                     |
+                     |
+                  .  |
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<freq> 0        1        2        3        4        5
+        EACH "#" IS 15: EACH "." IS 1 TO 14
+ 
+TABLE 1.8 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM - Measures for category scores (maximum probability of observing a category)
+               <more>|<rare> 0       1       2       3       4       5       6
+    5                +                                                  SCR_.6
+                     |
+                     |
+                  .  |
+                     |
+                     |
+                     |
+    4                +
+                  .  |
+                  .  |
+                     |          MCQ_.1                                  SCR_.6
+                  .  |                                          SCR_.5  SCR_.6
+                  .  |          MCQ_.1
+                  .  |          MCQ_.1
+    3             .  +          MCQ_.1
+                  .  |
+                  .  |          MCQ_.1
+                  .  |          MCQ_.1                  SCR_.4
+                  .  |          MCQ_.1                          SCR_.5
+                                MCQ_.1
+                  .  |          MCQ_.1  TEI_.2
+                .## T|T         MCQ_.1  TEI_.2                  SCR_.5
+                                MCQ_.1  TEI_.2
+                                MCQ_.1
+    2            .#  +          MCQ_.1  TEI_.2
+                                MCQ_.1  TEI_.2
+                                MCQ_.1
+                .##  |          MCQ_.1          SCR_.3  SCR_.4
+                                MCQ_.1
+                                MCQ_.1
+                .##  |          MCQ_.1  TEI_.2
+                 .#  |          MCQ_.1          SCR_.3  SCR_.4
+                                MCQ_.1
+             .#####  |  MCQ_.0  MCQ_.1
+                                MCQ_.1
+              .####  |          MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+             .#####  |S MCQ_.0  MCQ_.1  SCR_.2  SCR_.3
+                                MCQ_.1  SCR_.2
+    1      .####### S+  MCQ_.0  MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+            .######  |  MCQ_.0  MCQ_.1
+         .#########  |          MCQ_.1  SCR_.2
+                                MCQ_.1
+                                MCQ_.1
+         .#########  |  MCQ_.0  MCQ_.1
+          .########  |  MCQ_.0  SCR_.1
+                                TEI_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+       .###########  |  MCQ_.0  TEI_.1
+                                MCQ_.1
+                                SCR_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+           .#######  |  MCQ_.0  TEI_.1
+                                TEI_.1
+                                MCQ_.1
+                                TEI_.1
+                                SCR_.1
+                                MCQ_.1
+                                TEI_.1
+    0 .############ M+M MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+         .#########  |  MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+           .#######  |  MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+       .###########  |  MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+                        MCQ_.0
+        .##########  |  MCQ_.0
+            .######  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+          .########  |  MCQ_.0  MCQ_.1
+                        MCQ_.0  MCQ_.1
+                                MCQ_.1
+   -1       .######  +  MCQ_.0  MCQ_.1
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        SCR_.0
+             .##### S|S SCR_.0
+                        SCR_.0
+                        MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+             .#####  |  TEI_.0
+              .####  |  MCQ_.0
+                        MCQ_.0
+               .###  |  TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+               .###  |  MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                .##  |  MCQ_.0
+                        TEI_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+   -2            .#  +  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                .##  |T MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                 .# T|  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                  .  |  MCQ_.0
+                  .  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                  .  |
+                  .  |
+   -3             .  +  MCQ_.0
+                        MCQ_.0
+                     |  MCQ_.0
+                     |  MCQ_.0
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<freq> 0       1       2       3       4       5       6
+        EACH "#" IS 18: EACH "." IS 1 TO 17
+ 
+TABLE 1.9 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - PERSON - Average Measures for category scores
+               <more>|<more> 0       1       2       3       4       5       6
+                  .  |
+                     |
+                     |
+                     |
+    4                +
+                  .  |
+                  .  |
+                     |
+                  .  |
+                  .  |
+                  .  |
+    3             .  +
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+                  .  |                                                  SCR_.6
+                                                                        SCR_.6
+                .## T|T                                         SCR_.5  SCR_.6
+    2            .#  +
+                .##  |                                          SCR_.5
+                .##  |                                  SCR_.4
+                 .#  |                                          SCR_.5
+             .#####  |                                  SCR_.4
+              .####  |                                  SCR_.4
+             .#####  |S                         SCR_.3
+    1      .####### S+          MCQ_.1          SCR_.3
+            .######  |          MCQ_.1  TEI_.2
+                                MCQ_.1  TEI_.2
+                                        TEI_.2
+                                        TEI_.2
+         .#########  |          MCQ_.1  TEI_.2  SCR_.3
+                                MCQ_.1  TEI_.2
+                                MCQ_.1  SCR_.2
+                                MCQ_.1  SCR_.2
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+         .#########  |          MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+          .########  |          MCQ_.1  SCR_.2
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+       .###########  |          MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+           .#######  |          MCQ_.1
+                                TEI_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                SCR_.1
+                                MCQ_.1
+                                MCQ_.1
+                                MCQ_.1
+                                TEI_.1
+                                MCQ_.1
+                                MCQ_.1
+    0 .############ M+M         SCR_.1
+                                TEI_.1
+                                TEI_.1
+                                TEI_.1
+                                TEI_.1
+         .#########  |  MCQ_.0  SCR_.1
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+           .#######  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+       .###########  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+        .##########  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+            .######  |  MCQ_.0
+                        MCQ_.0
+                        SCR_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        SCR_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        SCR_.0
+                        MCQ_.0
+          .########  |  MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        TEI_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+                        MCQ_.0
+   -1       .######  +  MCQ_.0
+                        MCQ_.0
+             .##### S|S
+             .#####  |
+              .####  |
+               .###  |
+               .###  |
+                .##  |
+   -2            .#  +
+                .##  |T
+                 .# T|
+                  .  |
+                  .  |
+                  .  |
+                  .  |
+   -3             .  +
+                     |
+                     |
+                  .  |
+                  .  |
+                     |
+                     |
+   -4                +
+                  .  |
+                     |
+                     |
+                     |
+                     |
+                     |
+   -5             .  +
+               <less>|<less> 0       1       2       3       4       5       6
+        EACH "#" IS 18: EACH "." IS 1 TO 17
+ 
+TABLE 1.10 RASCH_FT_ /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+TOO BIG FOR TABLE 1.10 - NEEDS LINELENGTH=395
+ TOO BIG FOR TABLE 1.10 - NEEDS LINELENGTH=395
+ 
+TABLE 1.11 RASCH_FT_ /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE                                 ||                              MEASURE
+  <more> --------------------- PERSON  -++- ITEM    ----------------- <freq>
+    5                                   ++                                   5
+                                        ||
+                                        ||
+                                     .  ||
+                                        ||
+                                        ||
+                                        ||
+                                        ||
+    4                                   ++                                   4
+                                     .  ||
+                                     .  ||
+                                        ||
+                                        ||
+                                     .  ||
+                                        ||
+                                     .  ||
+    3                                .  ++                                   3
+                                     .  ||
+                                     .  ||
+                                     .  ||
+                                     .  ||
+                                    .#  ||
+                                    .#  ||
+                                .##### T||T D
+    2                            .####  ++                                   2
+                                ######  ||  DDD
+                               .######  ||
+                                 .####  ||
+                              .#######  ||  D
+                            .#########  ||  DDD
+                         .############  ||  D
+                     .################  ||  DDD
+    1                   .############# S++S DDD                              1
+                         .############  ||  D
+               .######################  ||  DDDDDD
+                   .##################  ||  DD
+              .#######################  ||  DD
+                 .####################  ||  DD
+                  .###################  ||  DD
+                 .####################  ||
+    0      .########################## M++  DDDDDD                           0
+            .#########################  ||M XDD
+                .#####################  ||  XXXDDD
+                  .###################  ||  XDD
+                     .################  ||  XDD
+                  .###################  ||  D
+                .#####################  ||  DDD
+                  .###################  ||  DDD
+   -1                  .##############  ++  D                               -1
+                         .############ S||S DDD
+                            .#########  ||  XD
+                        .#############  ||  DD
+                            .#########  ||  XD
+                               .######  ||
+                               .######  ||  D
+                               .######  ||
+   -2                              .##  ++  XD                              -2
+                                 .####  ||  D
+                                   .## T||T D
+                                  .###  ||
+                                     .  ||
+                                    .#  ||  D
+                                    .#  ||
+                                     .  ||
+   -3                               .#  ++                                  -3
+                                        ||
+                                        ||
+                                     .  ||
+                                     .  ||
+                                     .  ||
+                                        ||
+                                        ||
+   -4                                   ++                                  -4
+                                     .  ||
+                                        ||
+                                        ||
+                                        ||
+                                        ||
+                                        ||
+                                        ||
+   -5                                .  ++                                  -5
+         <less> --------------------- PERSON  -++- ITEM    ----------------- <rare>
+ EACH "#" IN THE PERSON COLUMN IS 7 PERSON: EACH "." IS 1 TO 6
+ 
+TABLE 1.12 RASCH_FT_ /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE    PERSON - MAP - ITEM
+               <more>||<freq>
+    5                ++
+                     ||
+                     ||
+                  .  ||
+                     ||
+                     ||
+                     ||
+                     ||
+    4                ++
+                  .  ||
+                  .  ||
+                     ||
+                     ||
+                  .  ||
+                     ||
+                  .  ||
+    3             .  ++
+                  .  ||
+                  .  ||
+                  .  ||
+                  .  ||
+                  .  ||
+                  .  ||
+                .## T||T MCQ_OP_
+    2            ##  ++
+                .##  ||  MCQ_FT_  MCQ_FT_  MCQ_OP_
+                ###  ||
+                 .#  ||
+               .###  ||  MCQ_OP_
+              .####  ||  MCQ_FT_  MCQ_FT_  MCQ_OP_
+             .#####  ||  MCQ_FT_
+           .#######  ||  MCQ_FT_  MCQ_FT_  MCQ_OP_
+    1       .###### S++S MCQ_FT_  MCQ_FT_  MCQ_OP_
+             .#####  ||  MCQ_FT_
+        .##########  ||  MCQ_FT_  MCQ_FT_  MCQ_OP_  MCQ_OP_  MCQ_OP_  MCQ_OP_
+          .########  ||  MCQ_FT_  MCQ_OP_
+        ###########  ||  MCQ_FT_  MCQ_FT_
+         .#########  ||  MCQ_FT_  MCQ_FT_
+          #########  ||  MCQ_OP_  MCQ_OP_
+         .#########  ||
+    0 .############ M++  MCQ_FT_  MCQ_FT_  MCQ_OP_  MCQ_OP_  MCQ_OP_  MCQ_OP_
+       .###########  ||M MCQ_FT_  MCQ_OP_  TEI_OP_
+         .#########  ||  MCQ_FT_  MCQ_OP_  MCQ_OP_  TEI_FT_  TEI_FT_  TEI_FT_
+         .#########  ||  MCQ_FT_  MCQ_FT_  TEI_FT_
+           .#######  ||  MCQ_FT_  MCQ_OP_  TEI_OP_
+         .#########  ||  MCQ_FT_
+        .##########  ||  MCQ_FT_  MCQ_FT_  MCQ_OP_
+         .#########  ||  MCQ_OP_  MCQ_OP_  MCQ_OP_
+   -1       .######  ++  MCQ_FT_
+             .##### S||S MCQ_FT_  MCQ_OP_  MCQ_OP_
+              .####  ||  MCQ_FT_  SCR_FT_
+            .######  ||  MCQ_FT_  MCQ_OP_
+              .####  ||  MCQ_OP_  SCR_FT_
+                ###  ||
+               .###  ||  MCQ_OP_
+                ###  ||
+   -2            .#  ++  MCQ_FT_  SCR_OP_
+                .##  ||  MCQ_FT_
+                 .# T||T MCQ_FT_
+                 .#  ||
+                  .  ||
+                  .  ||  MCQ_FT_
+                  .  ||
+                  .  ||
+   -3             .  ++
+                     ||
+                     ||
+                  .  ||
+                  .  ||
+                  .  ||
+                     ||
+                     ||
+   -4                ++
+                  .  ||
+                     ||
+                     ||
+                     ||
+                     ||
+                     ||
+                     ||
+   -5             .  ++
+               <less>||<rare>
+ EACH "#" IS 15: EACH "." IS 1 TO 14
+ 
+TABLE 1.13 RASCH_FT_ /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+MEASURE ITEM - MAP - PERSON
+         <freq>||<more>
+    5          ++
+               ||
+               ||
+               ||  SMc32
+               ||
+               ||
+               ||
+               ||
+    4          ++
+               ||  SFc39  SMc33
+               ||  SFc23
+               ||
+               ||
+               ||  SFc28  SFc29  SFc34
+               ||
+               ||  SFc26  SMc15  SMc35  SMc37
+    3          ++  SFc15  SFc16  SFc19
+               ||  SFc22  SFc23  SMc29  SMc31
+               ||  SFc11  SFc19  SFc36  SMc14  SMc23  SMc31
+               ||  SFc22  SFc32  SFc35  SMc17  SMc39  SMc39
+               ||  SFc34  SFc36  SMc11  SMc11  SMc24  SMc37
+               ||  SFc12  SFc16  SFc16  SFc21  SFc35  SFc39  SMc25  SMc31  SMc33
+                   SMc34  SMc38
+               ||  SFc12  SFc14  SFc15  SFc23  SFc33  SFc39  SMc22  SMc34
+            X T||T SFc21  SFc21  SFc22  SFc27  SFc29  SFc31  SFc31  SFc33  SFc33
+                   SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc37  SFc37
+                   SMc12  SMc12  SMc13  SMc14  SMc15  SMc16  SMc16  SMc17  SMc18
+                   SMc31  SMc31  SMc35  SMc35  SMc36  SMc37  SMc37  SMc38  SMc39
+    2          ++  SFc12  SFc12  SFc21  SFc22  SFc25  SFc28  SFc28  SFc29  SFc31
+                   SFc32  SFc33  SFc35  SFc37  SFc38  SMc12  SMc15  SMc17  SMc24
+                   SMc26  SMc31  SMc31  SMc32  SMc32  SMc33  SMc34  SMc34  SMc36
+                   SMc36  SMc36  SMc39
+          XXX  ||  SFc11  SFc14  SFc14  SFc14  SFc15  SFc15  SFc17  SFc17  SFc19
+                   SFc25  SFc26  SFc32  SFc32  SFc33  SFc34  SFc34  SFc34  SFc37
+                   SFc38  SMc12  SMc12  SMc16  SMc18  SMc18  SMc24  SMc24  SMc26
+                   SMc28  SMc28  SMc29  SMc31  SMc32  SMc32  SMc32  SMc34  SMc35
+                   SMc35  SMc35  SMc37  SMc37  SMc38  SMc39
+               ||  SFc13  SFc13  SFc13  SFc14  SFc15  SFc16  SFc17  SFc19  SFc31
+                   SFc32  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc37
+                   SFc37  SFc39  SFc39  SMc12  SMc13  SMc13  SMc14  SMc14  SMc16
+                   SMc18  SMc19  SMc24  SMc26  SMc28  SMc31  SMc31  SMc31  SMc32
+                   SMc32  SMc32  SMc33  SMc33  SMc33  SMc35  SMc35  SMc36  SMc39
+               ||  SFc13  SFc13  SFc14  SFc16  SFc18  SFc28  SFc33  SFc34  SFc34
+                   SFc35  SFc37  SFc39  SFc39  SMc11  SMc18  SMc19  SMc23  SMc31
+                   SMc31  SMc33  SMc34  SMc34  SMc35  SMc36  SMc37  SMc37  SMc38
+                   SMc38  SMc39
+            X  ||  SFc11  SFc12  SFc13  SFc14  SFc16  SFc16  SFc16  SFc17  SFc17
+                   SFc18  SFc18  SFc18  SFc24  SFc25  SFc26  SFc27  SFc27  SFc31
+                   SFc31  SFc32  SFc35  SFc36  SFc36  SFc36  SFc38  SFc39  SFc39
+                   SFc39  SMc12  SMc13  SMc14  SMc16  SMc19  SMc24  SMc25  SMc25
+                   SMc25  SMc25  SMc26  SMc26  SMc27  SMc27  SMc27  SMc31  SMc32
+                   SMc33  SMc34  SMc35  SMc36  SMc38  SMc38  SMc38  SMc38  SMc39
+                   SMc39
+          XXX  ||  SFc11  SFc12  SFc13  SFc13  SFc14  SFc15  SFc15  SFc17  SFc18
+                   SFc18  SFc19  SFc23  SFc24  SFc24  SFc25  SFc28  SFc32  SFc33
+                   SFc33  SFc34  SFc34  SFc35  SFc35  SFc36  SFc37  SFc37  SFc39
+                   SFc39  SMc12  SMc12  SMc13  SMc14  SMc14  SMc14  SMc14  SMc15
+                   SMc16  SMc17  SMc18  SMc21  SMc21  SMc24  SMc24  SMc25  SMc26
+                   SMc27  SMc28  SMc29  SMc31  SMc32  SMc33  SMc33  SMc33  SMc33
+                   SMc34  SMc34  SMc34  SMc34  SMc35  SMc37  SMc37  SMc38  SMc38
+                   SMc38  SMc39  SMc39
+            X  ||  SFc11  SFc11  SFc11  SFc12  SFc12  SFc13  SFc14  SFc14  SFc14
+                   SFc14  SFc15  SFc17  SFc17  SFc17  SFc18  SFc18  SFc19  SFc19
+                   SFc19  SFc19  SFc23  SFc23  SFc24  SFc31  SFc33  SFc33  SFc34
+                   SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37  SFc38
+                   SFc39  SFc39  SFc39  SMc11  SMc12  SMc12  SMc12  SMc13  SMc13
+                   SMc13  SMc14  SMc14  SMc15  SMc15  SMc18  SMc18  SMc19  SMc19
+                   SMc19  SMc21  SMc21  SMc22  SMc23  SMc25  SMc28  SMc29  SMc29
+                   SMc31  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc34
+                   SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc38  SMc38
+                   SMc38  SMc39  SMc39  SMc39
+          XXX  ||  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc14  SFc14  SFc15
+                   SFc16  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc21  SFc21
+                   SFc22  SFc22  SFc23  SFc24  SFc24  SFc25  SFc26  SFc26  SFc26
+                   SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc32
+                   SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35
+                   SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37
+                   SFc37  SFc37  SFc38  SFc38  SFc39  SFc39  SFc39  SMc11  SMc12
+                   SMc12  SMc14  SMc14  SMc14  SMc15  SMc16  SMc17  SMc17  SMc17
+                   SMc18  SMc18  SMc18  SMc19  SMc22  SMc22  SMc23  SMc23  SMc25
+                   SMc25  SMc26  SMc26  SMc28  SMc28  SMc29  SMc29  SMc29  SMc31
+                   SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc34  SMc34  SMc34
+                   SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc38
+                   SMc38  SMc39  SMc39  SMc39  SMc39
+    1     XXX S++S SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc13  SFc13  SFc13
+                   SFc15  SFc15  SFc19  SFc21  SFc22  SFc22  SFc23  SFc24  SFc24
+                   SFc26  SFc27  SFc27  SFc28  SFc31  SFc32  SFc32  SFc33  SFc34
+                   SFc34  SFc35  SFc35  SFc35  SFc36  SFc37  SFc37  SFc37  SFc37
+                   SFc38  SFc38  SFc39  SFc39  SMc11  SMc11  SMc12  SMc12  SMc12
+                   SMc13  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc16  SMc18
+                   SMc19  SMc19  SMc21  SMc21  SMc22  SMc23  SMc24  SMc28  SMc31
+                   SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32
+                   SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc34  SMc34
+                   SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37
+                   SMc37  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39
+            X  ||  SFc11  SFc11  SFc11  SFc12  SFc13  SFc14  SFc14  SFc14  SFc14
+                   SFc15  SFc15  SFc16  SFc16  SFc16  SFc18  SFc18  SFc18  SFc18
+                   SFc19  SFc24  SFc27  SFc28  SFc29  SFc32  SFc32  SFc33  SFc33
+                   SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36  SFc36
+                   SFc36  SFc37  SFc38  SFc39  SFc39  SMc11  SMc12  SMc12  SMc12
+                   SMc13  SMc15  SMc16  SMc18  SMc18  SMc18  SMc19  SMc19  SMc21
+                   SMc21  SMc21  SMc22  SMc23  SMc25  SMc25  SMc26  SMc26  SMc26
+                   SMc27  SMc28  SMc28  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33
+                   SMc33  SMc33  SMc33  SMc34  SMc35  SMc35  SMc35  SMc36  SMc36
+                   SMc37  SMc37  SMc37  SMc37  SMc38
+       XXXXXX  ||  SFc11  SFc11  SFc12  SFc12  SFc13  SFc13  SFc13  SFc13  SFc13
+                   SFc13  SFc14  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                   SFc15  SFc15  SFc15  SFc16  SFc16  SFc18  SFc18  SFc18  SFc18
+                   SFc18  SFc19  SFc21  SFc21  SFc22  SFc22  SFc22  SFc22  SFc23
+                   SFc23  SFc24  SFc25  SFc25  SFc25  SFc25  SFc26  SFc26  SFc27
+                   SFc27  SFc27  SFc28  SFc28  SFc29  SFc31  SFc31  SFc31  SFc31
+                   SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc34
+                   SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36
+                   SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc39  SFc39  SMc11
+                   SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc14  SMc14  SMc15
+                   SMc15  SMc15  SMc15  SMc15  SMc16  SMc17  SMc17  SMc18  SMc18
+                   SMc19  SMc21  SMc21  SMc21  SMc23  SMc23  SMc24  SMc25  SMc25
+                   SMc25  SMc26  SMc26  SMc27  SMc27  SMc27  SMc27  SMc29  SMc29
+                   SMc31  SMc32  SMc32  SMc32  SMc32  SMc32  SMc32  SMc33  SMc33
+                   SMc33  SMc33  SMc33  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36
+                   SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37
+                   SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                   SMc39  SMc39  SMc39  SMc39
+           XX  ||  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc15  SFc15
+                   SFc16  SFc16  SFc16  SFc17  SFc18  SFc21  SFc22  SFc23  SFc24
+                   SFc26  SFc27  SFc27  SFc27  SFc28  SFc28  SFc28  SFc31  SFc31
+                   SFc31  SFc31  SFc31  SFc32  SFc32  SFc33  SFc34  SFc34  SFc34
+                   SFc34  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37
+                   SFc38  SFc39  SFc39  SFc39  SFc39  SFc39  SMc12  SMc13  SMc13
+                   SMc13  SMc13  SMc13  SMc14  SMc14  SMc15  SMc15  SMc16  SMc16
+                   SMc16  SMc16  SMc17  SMc18  SMc18  SMc19  SMc19  SMc19  SMc21
+                   SMc23  SMc24  SMc26  SMc27  SMc27  SMc27  SMc27  SMc29  SMc29
+                   SMc29  SMc29  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32
+                   SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc34
+                   SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35  SMc36
+                   SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37
+                   SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39
+                   SMc39
+           XX  ||  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13
+                   SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                   SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc17  SFc17  SFc17
+                   SFc17  SFc17  SFc18  SFc18  SFc18  SFc22  SFc23  SFc23  SFc24
+                   SFc24  SFc24  SFc25  SFc25  SFc26  SFc26  SFc26  SFc27  SFc27
+                   SFc27  SFc27  SFc27  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                   SFc31  SFc31  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33
+                   SFc34  SFc34  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36
+                   SFc36  SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc38  SFc39
+                   SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc11  SMc12  SMc12
+                   SMc13  SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc14  SMc14
+                   SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc17  SMc17  SMc17
+                   SMc18  SMc18  SMc18  SMc18  SMc18  SMc19  SMc19  SMc19  SMc21
+                   SMc21  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23  SMc24  SMc25
+                   SMc26  SMc26  SMc26  SMc28  SMc29  SMc31  SMc31  SMc32  SMc32
+                   SMc32  SMc33  SMc33  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34
+                   SMc34  SMc34  SMc35  SMc35  SMc35  SMc37  SMc37  SMc37  SMc37
+                   SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38  SMc38
+                   SMc38  SMc39  SMc39
+           XX  ||  SFc11  SFc11  SFc12  SFc13  SFc13  SFc14  SFc14  SFc15  SFc15
+                   SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc19  SFc19  SFc21
+                   SFc21  SFc21  SFc22  SFc23  SFc24  SFc26  SFc26  SFc27  SFc28
+                   SFc28  SFc28  SFc28  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                   SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc33
+                   SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc34
+                   SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37
+                   SFc38  SFc38  SFc38  SFc39  SFc39  SMc11  SMc12  SMc13  SMc13
+                   SMc13  SMc14  SMc14  SMc15  SMc15  SMc15  SMc15  SMc16  SMc17
+                   SMc17  SMc17  SMc17  SMc18  SMc18  SMc18  SMc19  SMc19  SMc19
+                   SMc22  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23  SMc25  SMc25
+                   SMc26  SMc26  SMc27  SMc27  SMc28  SMc28  SMc28  SMc29  SMc31
+                   SMc31  SMc31  SMc31  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33
+                   SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                   SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36
+                   SMc36  SMc37  SMc37  SMc37  SMc38  SMc39  SMc39  SMc39  SMc39
+                   SMc39  SMc39
+           XX  ||  SFc11  SFc11  SFc12  SFc13  SFc14  SFc14  SFc15  SFc15  SFc15
+                   SFc16  SFc16  SFc17  SFc18  SFc18  SFc18  SFc19  SFc21  SFc21
+                   SFc21  SFc21  SFc21  SFc21  SFc22  SFc24  SFc25  SFc25  SFc26
+                   SFc27  SFc28  SFc28  SFc28  SFc28  SFc29  SFc31  SFc31  SFc31
+                   SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33  SFc33
+                   SFc34  SFc34  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36
+                   SFc36  SFc36  SFc37  SFc37  SFc37  SFc38  SFc39  SFc39  SMc11
+                   SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                   SMc14  SMc14  SMc14  SMc15  SMc15  SMc15  SMc16  SMc16  SMc18
+                   SMc18  SMc18  SMc18  SMc19  SMc19  SMc19  SMc19  SMc21  SMc21
+                   SMc21  SMc22  SMc23  SMc25  SMc25  SMc25  SMc26  SMc27  SMc27
+                   SMc28  SMc29  SMc29  SMc29  SMc29  SMc31  SMc32  SMc32  SMc32
+                   SMc32  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc34  SMc36
+                   SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc38
+                   SMc38  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39
+               ||  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc14  SFc14  SFc14
+                   SFc15  SFc15  SFc15  SFc15  SFc16  SFc16  SFc16  SFc17  SFc17
+                   SFc18  SFc18  SFc18  SFc19  SFc19  SFc19  SFc19  SFc22  SFc23
+                   SFc24  SFc24  SFc26  SFc26  SFc26  SFc27  SFc28  SFc31  SFc31
+                   SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc31  SFc32
+                   SFc32  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc33  SFc33
+                   SFc33  SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34
+                   SFc34  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc36  SFc37
+                   SFc37  SFc37  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SFc39
+                   SFc39  SFc39  SFc39  SMc11  SMc11  SMc11  SMc11  SMc11  SMc12
+                   SMc14  SMc16  SMc16  SMc17  SMc17  SMc17  SMc18  SMc18  SMc18
+                   SMc19  SMc21  SMc22  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24
+                   SMc24  SMc25  SMc28  SMc28  SMc29  SMc31  SMc31  SMc31  SMc32
+                   SMc32  SMc33  SMc34  SMc34  SMc34  SMc34  SMc36  SMc36  SMc36
+                   SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc37
+                   SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39  SMc39  SMc39
+    0  XXXXXX  ++M SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc12
+                   SFc12  SFc14  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15
+                   SFc15  SFc15  SFc15  SFc15  SFc15  SFc15  SFc16  SFc16  SFc16
+                   SFc16  SFc16  SFc16  SFc16  SFc17  SFc17  SFc17  SFc18  SFc18
+                   SFc18  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc21  SFc22
+                   SFc23  SFc23  SFc24  SFc24  SFc24  SFc24  SFc25  SFc25  SFc25
+                   SFc25  SFc25  SFc26  SFc26  SFc27  SFc29  SFc31  SFc31  SFc31
+                   SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33
+                   SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc35  SFc35  SFc35
+                   SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc37  SFc38  SFc38
+                   SFc38  SFc38  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SMc11
+                   SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                   SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc15  SMc15  SMc15
+                   SMc15  SMc15  SMc15  SMc16  SMc17  SMc17  SMc17  SMc17  SMc17
+                   SMc18  SMc18  SMc18  SMc18  SMc18  SMc18  SMc18  SMc19  SMc19
+                   SMc19  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24  SMc26  SMc26
+                   SMc26  SMc27  SMc27  SMc28  SMc29  SMc31  SMc32  SMc32  SMc32
+                   SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33
+                   SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                   SMc35  SMc36  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38
+                   SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39
+          XXX M||  SFc11  SFc11  SFc12  SFc12  SFc12  SFc13  SFc15  SFc16  SFc17
+                   SFc17  SFc17  SFc17  SFc17  SFc21  SFc22  SFc22  SFc22  SFc23
+                   SFc23  SFc23  SFc23  SFc24  SFc24  SFc25  SFc25  SFc26  SFc27
+                   SFc27  SFc27  SFc27  SFc28  SFc29  SFc29  SFc29  SFc29  SFc31
+                   SFc31  SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33
+                   SFc33  SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34
+                   SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc36
+                   SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc36  SFc37
+                   SFc37  SFc37  SFc38  SFc38  SFc38  SFc38  SFc38  SFc38  SFc38
+                   SFc38  SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc12  SMc13
+                   SMc13  SMc13  SMc15  SMc15  SMc16  SMc16  SMc17  SMc17  SMc18
+                   SMc19  SMc21  SMc21  SMc22  SMc22  SMc22  SMc22  SMc22  SMc23
+                   SMc23  SMc24  SMc24  SMc24  SMc24  SMc24  SMc25  SMc25  SMc27
+                   SMc27  SMc27  SMc28  SMc29  SMc31  SMc31  SMc31  SMc31  SMc32
+                   SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33
+                   SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35
+                   SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36  SMc36
+                   SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc37  SMc37  SMc37
+                   SMc37  SMc37  SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38
+                   SMc38  SMc38  SMc39  SMc39  SMc39
+       XXXXXX  ||  SFc11  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12
+                   SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc14  SFc14
+                   SFc14  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc18  SFc18
+                   SFc18  SFc21  SFc22  SFc23  SFc25  SFc25  SFc25  SFc26  SFc26
+                   SFc27  SFc27  SFc27  SFc28  SFc29  SFc31  SFc31  SFc32  SFc32
+                   SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc35  SFc35  SFc35
+                   SFc35  SFc35  SFc35  SFc36  SFc36  SFc37  SFc38  SFc38  SFc38
+                   SFc39  SFc39  SFc39  SFc39  SFc39  SFc39  SMc11  SMc11  SMc11
+                   SMc12  SMc12  SMc12  SMc13  SMc13  SMc14  SMc14  SMc14  SMc15
+                   SMc15  SMc15  SMc15  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16
+                   SMc16  SMc16  SMc16  SMc17  SMc17  SMc18  SMc19  SMc19  SMc21
+                   SMc21  SMc21  SMc21  SMc22  SMc22  SMc23  SMc24  SMc26  SMc26
+                   SMc26  SMc27  SMc28  SMc28  SMc29  SMc29  SMc29  SMc29  SMc31
+                   SMc31  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33  SMc33
+                   SMc33  SMc33  SMc33  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35
+                   SMc35  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc38
+                   SMc38  SMc39  SMc39  SMc39
+          XXX  ||  SFc11  SFc11  SFc11  SFc11  SFc13  SFc13  SFc13  SFc15  SFc15
+                   SFc15  SFc15  SFc15  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19
+                   SFc19  SFc19  SFc21  SFc21  SFc22  SFc22  SFc26  SFc26  SFc26
+                   SFc27  SFc27  SFc27  SFc29  SFc29  SFc29  SFc31  SFc31  SFc31
+                   SFc31  SFc31  SFc32  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34
+                   SFc34  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35  SFc36  SFc36
+                   SFc36  SFc37  SFc37  SFc37  SFc37  SFc38  SFc39  SMc11  SMc11
+                   SMc12  SMc12  SMc13  SMc13  SMc13  SMc14  SMc15  SMc15  SMc16
+                   SMc16  SMc16  SMc16  SMc17  SMc19  SMc19  SMc19  SMc21  SMc21
+                   SMc22  SMc24  SMc24  SMc24  SMc25  SMc25  SMc26  SMc27  SMc27
+                   SMc29  SMc29  SMc29  SMc29  SMc29  SMc29  SMc29  SMc31  SMc31
+                   SMc31  SMc31  SMc31  SMc31  SMc31  SMc31  SMc31  SMc32  SMc32
+                   SMc32  SMc32  SMc32  SMc33  SMc33  SMc33  SMc33  SMc33  SMc33
+                   SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36
+                   SMc36  SMc36  SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                   SMc39  SMc39  SMc39
+          XXX  ||  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13  SFc13
+                   SFc13  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15
+                   SFc16  SFc16  SFc16  SFc17  SFc17  SFc19  SFc19  SFc19  SFc19
+                   SFc19  SFc19  SFc22  SFc22  SFc23  SFc24  SFc24  SFc25  SFc26
+                   SFc28  SFc28  SFc28  SFc28  SFc31  SFc31  SFc32  SFc32  SFc32
+                   SFc32  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc35
+                   SFc35  SFc35  SFc36  SFc36  SFc38  SFc38  SFc39  SFc39  SFc39
+                   SFc39  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc14  SMc14
+                   SMc15  SMc16  SMc16  SMc17  SMc18  SMc19  SMc21  SMc21  SMc24
+                   SMc25  SMc25  SMc26  SMc26  SMc26  SMc26  SMc27  SMc27  SMc28
+                   SMc28  SMc29  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc33
+                   SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc37  SMc37  SMc37
+                   SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39
+                   SMc39
+            X  ||  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc13
+                   SFc13  SFc14  SFc14  SFc14  SFc15  SFc15  SFc15  SFc15  SFc16
+                   SFc16  SFc17  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc19
+                   SFc21  SFc23  SFc23  SFc23  SFc24  SFc25  SFc25  SFc25  SFc26
+                   SFc27  SFc28  SFc28  SFc28  SFc28  SFc29  SFc32  SFc32  SFc32
+                   SFc32  SFc32  SFc33  SFc33  SFc34  SFc34  SFc34  SFc34  SFc35
+                   SFc35  SFc35  SFc35  SFc35  SFc36  SFc36  SFc36  SFc36  SFc36
+                   SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38  SFc38  SFc38
+                   SFc39  SFc39  SFc39  SMc12  SMc12  SMc12  SMc13  SMc13  SMc13
+                   SMc13  SMc14  SMc15  SMc16  SMc16  SMc17  SMc17  SMc17  SMc17
+                   SMc19  SMc21  SMc22  SMc22  SMc22  SMc22  SMc23  SMc23  SMc24
+                   SMc25  SMc25  SMc27  SMc29  SMc31  SMc31  SMc31  SMc31  SMc31
+                   SMc32  SMc32  SMc32  SMc32  SMc33  SMc33  SMc34  SMc34  SMc34
+                   SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35  SMc35  SMc35
+                   SMc36  SMc36  SMc37  SMc37  SMc37  SMc38  SMc38  SMc39  SMc39
+                   SMc39  SMc39  SMc39
+          XXX  ||  SFc11  SFc11  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12
+                   SFc12  SFc13  SFc13  SFc14  SFc14  SFc14  SFc14  SFc15  SFc15
+                   SFc16  SFc16  SFc16  SFc16  SFc17  SFc17  SFc17  SFc17  SFc17
+                   SFc17  SFc18  SFc18  SFc18  SFc18  SFc18  SFc19  SFc19  SFc21
+                   SFc22  SFc23  SFc25  SFc25  SFc26  SFc27  SFc27  SFc28  SFc28
+                   SFc29  SFc29  SFc29  SFc31  SFc31  SFc31  SFc31  SFc32  SFc32
+                   SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc35  SFc35
+                   SFc35  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37
+                   SFc37  SFc38  SFc38  SFc38  SFc39  SFc39  SFc39  SFc39  SFc39
+                   SMc11  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc12
+                   SMc13  SMc13  SMc13  SMc14  SMc14  SMc14  SMc14  SMc14  SMc14
+                   SMc15  SMc16  SMc17  SMc17  SMc17  SMc17  SMc17  SMc17  SMc18
+                   SMc19  SMc19  SMc19  SMc19  SMc22  SMc23  SMc24  SMc25  SMc26
+                   SMc28  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33
+                   SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc35  SMc35  SMc35
+                   SMc36  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38  SMc38
+                   SMc38  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39  SMc39
+          XXX  ||  SFc12  SFc13  SFc14  SFc15  SFc15  SFc15  SFc16  SFc17  SFc17
+                   SFc19  SFc22  SFc22  SFc22  SFc22  SFc26  SFc26  SFc26  SFc27
+                   SFc28  SFc28  SFc28  SFc28  SFc31  SFc31  SFc31  SFc32  SFc32
+                   SFc32  SFc32  SFc32  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33
+                   SFc33  SFc33  SFc33  SFc33  SFc34  SFc34  SFc34  SFc35  SFc36
+                   SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38  SFc38
+                   SFc38  SFc38  SFc39  SFc39  SFc39  SFc39  SFc39  SFc39  SFc39
+                   SFc39  SMc11  SMc11  SMc12  SMc12  SMc12  SMc12  SMc12  SMc13
+                   SMc13  SMc15  SMc15  SMc16  SMc16  SMc16  SMc16  SMc16  SMc17
+                   SMc17  SMc17  SMc17  SMc17  SMc18  SMc18  SMc19  SMc21  SMc22
+                   SMc22  SMc22  SMc23  SMc23  SMc24  SMc25  SMc25  SMc25  SMc26
+                   SMc26  SMc27  SMc27  SMc28  SMc28  SMc29  SMc29  SMc31  SMc31
+                   SMc31  SMc31  SMc32  SMc33  SMc33  SMc33  SMc34  SMc34  SMc34
+                   SMc35  SMc35  SMc35  SMc35  SMc36  SMc36  SMc36  SMc36  SMc36
+                   SMc36  SMc37  SMc37  SMc37  SMc37  SMc37  SMc38  SMc38  SMc38
+                   SMc39
+   -1       X  ++  SFc11  SFc11  SFc12  SFc13  SFc13  SFc14  SFc14  SFc15  SFc15
+                   SFc16  SFc16  SFc17  SFc17  SFc18  SFc19  SFc19  SFc22  SFc23
+                   SFc25  SFc26  SFc26  SFc26  SFc26  SFc26  SFc27  SFc27  SFc28
+                   SFc28  SFc28  SFc29  SFc31  SFc31  SFc32  SFc32  SFc33  SFc33
+                   SFc34  SFc34  SFc35  SFc35  SFc35  SFc35  SFc35  SFc36  SFc36
+                   SFc36  SFc36  SFc36  SFc37  SFc37  SFc37  SFc37  SFc37  SFc38
+                   SFc38  SFc39  SFc39  SFc39  SMc12  SMc12  SMc13  SMc14  SMc14
+                   SMc16  SMc17  SMc17  SMc18  SMc19  SMc19  SMc21  SMc21  SMc22
+                   SMc22  SMc25  SMc26  SMc26  SMc26  SMc28  SMc29  SMc31  SMc32
+                   SMc32  SMc33  SMc33  SMc34  SMc34  SMc34  SMc34  SMc34  SMc35
+                   SMc37  SMc37  SMc38  SMc38  SMc38  SMc38  SMc39  SMc39  SMc39
+                   SMc39
+          XXX S||S SFc11  SFc11  SFc13  SFc14  SFc15  SFc15  SFc16  SFc18  SFc18
+                   SFc18  SFc19  SFc19  SFc21  SFc22  SFc23  SFc23  SFc24  SFc24
+                   SFc25  SFc27  SFc29  SFc29  SFc29  SFc31  SFc32  SFc32  SFc32
+                   SFc32  SFc33  SFc34  SFc34  SFc35  SFc35  SFc36  SFc36  SFc36
+                   SFc36  SFc36  SFc36  SFc37  SFc37  SFc38  SFc38  SFc39  SFc39
+                   SFc39  SFc39  SMc11  SMc12  SMc15  SMc15  SMc18  SMc18  SMc19
+                   SMc21  SMc21  SMc21  SMc23  SMc25  SMc27  SMc27  SMc27  SMc28
+                   SMc29  SMc29  SMc31  SMc31  SMc31  SMc32  SMc32  SMc32  SMc33
+                   SMc34  SMc34  SMc35  SMc35  SMc35  SMc37  SMc37  SMc37  SMc38
+                   SMc38  SMc38  SMc39  SMc39  SMc39  SMc39
+           XX  ||  SFc11  SFc12  SFc13  SFc16  SFc18  SFc18  SFc19  SFc22  SFc22
+                   SFc24  SFc24  SFc25  SFc25  SFc25  SFc25  SFc25  SFc27  SFc27
+                   SFc27  SFc28  SFc31  SFc32  SFc33  SFc33  SFc33  SFc34  SFc34
+                   SFc34  SFc35  SFc35  SFc37  SFc37  SFc38  SFc39  SMc12  SMc14
+                   SMc14  SMc15  SMc15  SMc15  SMc16  SMc21  SMc21  SMc21  SMc21
+                   SMc21  SMc23  SMc24  SMc24  SMc26  SMc27  SMc31  SMc33  SMc33
+                   SMc33  SMc34  SMc34  SMc34  SMc35  SMc35  SMc36  SMc36  SMc37
+                   SMc37  SMc37  SMc37  SMc37  SMc37  SMc38
+           XX  ||  SFc11  SFc11  SFc11  SFc12  SFc12  SFc12  SFc12  SFc14  SFc15
+                   SFc15  SFc15  SFc17  SFc17  SFc17  SFc17  SFc18  SFc18  SFc21
+                   SFc22  SFc24  SFc25  SFc27  SFc28  SFc29  SFc31  SFc31  SFc31
+                   SFc31  SFc31  SFc32  SFc32  SFc32  SFc32  SFc33  SFc33  SFc34
+                   SFc34  SFc34  SFc34  SFc34  SFc34  SFc34  SFc35  SFc36  SFc36
+                   SFc36  SFc36  SFc37  SFc37  SFc38  SFc38  SFc39  SFc39  SMc11
+                   SMc13  SMc14  SMc14  SMc16  SMc17  SMc18  SMc18  SMc18  SMc18
+                   SMc19  SMc19  SMc19  SMc19  SMc23  SMc24  SMc24  SMc25  SMc29
+                   SMc29  SMc31  SMc31  SMc31  SMc32  SMc33  SMc33  SMc34  SMc36
+                   SMc36  SMc36  SMc36  SMc36  SMc37  SMc37  SMc37  SMc37  SMc38
+                   SMc38  SMc39  SMc39
+           XX  ||  SFc12  SFc12  SFc13  SFc15  SFc16  SFc16  SFc17  SFc18  SFc23
+                   SFc23  SFc25  SFc25  SFc28  SFc28  SFc29  SFc31  SFc31  SFc32
+                   SFc32  SFc32  SFc34  SFc34  SFc34  SFc35  SFc35  SFc36  SFc37
+                   SFc37  SFc37  SFc37  SFc38  SFc39  SFc39  SFc39  SMc11  SMc11
+                   SMc11  SMc11  SMc11  SMc11  SMc11  SMc13  SMc13  SMc15  SMc16
+                   SMc17  SMc17  SMc17  SMc19  SMc21  SMc25  SMc25  SMc29  SMc31
+                   SMc31  SMc31  SMc31  SMc31  SMc32  SMc33  SMc34  SMc34  SMc36
+                   SMc36  SMc37  SMc38  SMc38  SMc39
+               ||  SFc13  SFc14  SFc15  SFc15  SFc17  SFc17  SFc17  SFc18  SFc19
+                   SFc19  SFc19  SFc23  SFc24  SFc24  SFc26  SFc27  SFc31  SFc32
+                   SFc33  SFc34  SFc34  SFc36  SFc39  SMc11  SMc16  SMc17  SMc17
+                   SMc17  SMc19  SMc19  SMc28  SMc32  SMc32  SMc32  SMc32  SMc33
+                   SMc33  SMc34  SMc36  SMc36  SMc36  SMc36  SMc36  SMc37  SMc39
+            X  ||  SFc11  SFc13  SFc13  SFc13  SFc18  SFc19  SFc19  SFc22  SFc23
+                   SFc23  SFc25  SFc27  SFc31  SFc32  SFc32  SFc32  SFc33  SFc33
+                   SFc35  SFc35  SFc36  SFc37  SFc38  SMc11  SMc12  SMc13  SMc16
+                   SMc18  SMc19  SMc21  SMc21  SMc22  SMc22  SMc23  SMc24  SMc31
+                   SMc31  SMc31  SMc36  SMc36  SMc37  SMc38  SMc38  SMc38  SMc38
+                   SMc39  SMc39
+               ||  SFc12  SFc15  SFc16  SFc18  SFc21  SFc22  SFc25  SFc26  SFc32
+                   SFc32  SFc33  SFc33  SFc33  SFc34  SFc35  SFc35  SFc36  SFc36
+                   SFc38  SFc38  SFc39  SMc12  SMc14  SMc14  SMc15  SMc15  SMc19
+                   SMc22  SMc23  SMc25  SMc31  SMc31  SMc31  SMc31  SMc32  SMc33
+                   SMc33  SMc33  SMc34  SMc34  SMc36  SMc37  SMc38  SMc39  SMc39
+   -2      XX  ++  SFc14  SFc15  SFc19  SFc24  SFc25  SFc25  SFc31  SFc32  SFc33
+                   SFc37  SMc13  SMc16  SMc18  SMc27  SMc31  SMc33  SMc35  SMc35
+                   SMc37  SMc39
+            X  ||  SFc11  SFc12  SFc14  SFc15  SFc18  SFc18  SFc21  SFc24  SFc26
+                   SFc31  SFc32  SFc32  SFc36  SFc37  SFc37  SMc11  SMc12  SMc16
+                   SMc16  SMc18  SMc19  SMc21  SMc29  SMc32  SMc33  SMc34  SMc34
+                   SMc35  SMc35  SMc36  SMc38
+            X T||T SFc11  SFc13  SFc15  SFc17  SFc19  SFc19  SFc32  SFc39  SMc12
+                   SMc12  SMc16  SMc17  SMc18  SMc19  SMc27  SMc32  SMc32  SMc36
+               ||  SFc13  SFc19  SFc21  SFc23  SFc26  SFc27  SFc28  SFc31  SFc32
+                   SFc33  SFc33  SFc35  SFc35  SFc38  SFc39  SFc39  SMc11  SMc16
+                   SMc16  SMc18  SMc19  SMc19  SMc23  SMc32  SMc34
+               ||  SMc11  SMc15
+            X  ||  SFc17  SFc23  SFc24  SFc26  SFc31  SFc32  SMc15  SMc17  SMc25
+                   SMc27  SMc29  SMc32  SMc38
+               ||  SFc15  SFc18  SFc29  SMc12  SMc13  SMc17  SMc17  SMc18
+               ||  SFc35  SFc38
+   -3          ++  SFc32  SFc35  SFc36  SFc37  SFc39  SMc15  SMc34  SMc35  SMc39
+                   SMc39
+               ||
+               ||
+               ||  SFc32  SMc38
+               ||  SMc22  SMc37
+               ||  SFc15  SMc11  SMc13  SMc14
+               ||
+               ||
+   -4          ++
+               ||  SFc35
+               ||
+               ||
+               ||
+               ||
+               ||
+               ||
+   -5          ++  SMc26
+         <rare>||<less>
+ 
+TABLE 0.1 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+------------------------------------------------------------------------------
+|                                                                            |
+|                     * * * *  W I N S T E P S  * * * *                      |
+|                     ---------------------------------                      |
+|                                                                            |
+|                 -  RASCH ANALYSIS FOR TWO-FACET MODELS  -                  |
+|                                                                            |
+|       PERSON, ITEM & RESPONSE STRUCTURE MEASUREMENT AND FIT ANALYSIS       |
+|                                                                            |
+|                     WINSTEPS(R)      www.winsteps.com                      |
+|                                                                            |
+|               COPYRIGHT  (C)JOHN MICHAEL LINACRE, 1991-2022                |
+|  Permission to copy Winsteps/Ministep output and documentation is granted. |
+|                    March 15, 2022     VERSION 5.2.2.0                      |
+------------------------------------------------------------------------------
+      TITLE= RASCH_FT_MEAN_EXAMPLE
+CONTROL FILE: C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/Winsteps/FT/Mean-Mean/rasch_demo_ft_mean_controlcard.txt
+OUTPUT FILE: C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/WINSTEPS/FT/Mean-Mean/rasch_demo_ft_mean_output.txt
+       DATE: Jul 17 2023 20:32
+3500 PERSON Records Input
+ 
+ 
+TABLE 0.2 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+ 
+ 
+                            CONVERGENCE TABLE
+ 
+------------------------------------------------------------------------------
+|    PROX          ACTIVE COUNT       EXTREME 5 RANGE      MAX LOGIT CHANGE  |
+| ITERATION  PERSON    ITEM  CATS     PERSON    ITEM      MEASURES  STRUCTURE|
+|----------------------------------------------------------------------------|
+|        1     3500      74   169       6.58    3.34       -3.9120    -.6878 |
+|        2     3499      74   169       7.48    3.74        -.5400   -1.2043 |
+|        3     3499      74   169       7.71    3.92        -.1626     .1661 |
+|----------------------------------------------------------------------------|
+|    JMLE     MAX SCORE   MAX LOGIT     LEAST CONVERGED    CATEGORY STRUCTURE|
+| ITERATION   RESIDUAL*     CHANGE  PERSON    ITEM    CAT   RESIDUAL   CHANGE|
+|----------------------------------------------------------------------------|
+|       1       660.11       .4107    3048     33*      0    -287.41   -.1970|
+|       2       147.83       .0855    3010     32*      0     -87.38   -.1012|
+|       3        95.02       .0411    3056     33*      0     -28.01   -.0540|
+|       4        45.45       .0167    2569     33*      0     -13.66   -.0250|
+|       5        24.34      -.0094    2528     33*      0      -7.01   -.0132|
+|       6        14.24      -.0053    3010     33*      0      -3.95   -.0071|
+|       7         8.93      -.0033    3003     33*      0      -2.39   -.0039|
+------------------------------------------------------------------------------
+Time for estimation: 0:0:0.361
+ 
+TABLE 0.3 RASCH_FT_M /Mean-Mean/rasch_demo_ft_mean_output.txt  Jul 17 2023 20:32
+INPUT: 3500 PERSON  74 ITEM  REPORTED: 3500 PERSON  74 ITEM  169 CATS WINSTEPS 5.2.2.0
+--------------------------------------------------------------------------------------
+ 
+&INST
+TITLE=RASCH_FT_MEAN_EXAMPLE
+NAME1=1
+NAMELEN=10
+ITEM=ITEM
+ITEM1=16
+NI=74
+IFILE='C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/WINSTEPS/FT/Mean-Mean/rasch_demo_ft_mean_rids.csv'
+SFILE='C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/WINSTEPS/FT/Mean-Mean/rasch_demo_ft_mean_steps.csv'
+OFILE='C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/WINSTEPS/FT/Mean-Mean/rasch_demo_ft_mean_output.txt'
+DATA='C:/Users/UCHAJMI/Documents/Personal/GitHub/Rasch_demo/WINSTEPS/SCALING/rasch_demo_data.txt'
+MISSCORE=-1
+MUCON=0
+UEXTREME=No
+EXTRSCORE=.3
+CODES=012345678
+KEY1=11111111111111111111111111111111311111111111111111111111111111111111111133
+KEY2=******************************224***********************************222244
+KEY3=********************************5***************************************55
+KEY4=********************************6***************************************66
+KEY5=********************************7***************************************77
+KEY6=********************************8***************************************88
+MODEL=R
+GROUPS=0
+STKEEP=N
+STBIAS=Y
+PTBIS=Y
+CSV=YES
+UDECIM=6
+TABLES=1000000000000000000000000000000000000000
+INUMBER=N
+MAXPAG=80
+&END
+BATCH=YES
